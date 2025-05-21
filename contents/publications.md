@@ -16,3 +16,6 @@
 - <strong>Li, J.</strong>, Sornette, D., & Feng, Y.<sup>#</sup> (2025). Estimating Earthquake Early Warning Effectiveness via Blind Zone Sizes: A Case Study of the Planned Seismic Network in Chinese Mainland. Natural Hazards, 121(6), 7783-7809. [[Paper]](https://link.springer.com/article/10.1007/s11069-024-07104-z)
 
 - <strong>李佳威</strong><sup>#</sup>, 宋笛牒<sup>#</sup>, 吴忠良, 李杭威. 2025. 地震统计物理研究的新视角：“龙王”理论及“龙王”地震事件. 地球与行星物理论评(中英文), 56(3), 225-242. [[Paper]](https://www.sjdz.org.cn/cn/article/doi/10.19975/j.dqyxx.2024-033) [[English Version]](https://www.researchgate.net/publication/383267054_New_horizon_in_the_statistical_physics_of_earthquakes_Dragon-king_theory_and_dragon-king_earthquakes)
+
+2024
+- Zhan, C., Gao, S.<sup>#</sup>, Zhang, Y., <strong>Li, J.</strong>, Meng, Q.<sup>#</sup> (2024). ETAS-inspired Spatio-Temporal Convolutional (STC) model for next-day earthquake forecasting. IEEE Transactions on Geoscience and Remote Sensing, 62, 5920114. [[Paper]](https://ieeexplore.ieee.org/abstract/document/10589466)
