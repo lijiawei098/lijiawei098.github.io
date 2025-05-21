@@ -1,6 +1,6 @@
 #### 审稿中｜Under review
 
-- <strong>Li, J.</strong><sup>*</sup>, Sornette, D.<sup>*</sup> (2025). Are Haicheng and Tangshan Earthquakes Dragon-Kings?. Earth and Planetary Science Letters (in review) or [[preprint]](https://doi.org/10.48550/arXiv.2504.21310).
+- <strong>Li, J.</strong>\*, Sornette, D.\* (2025). Are Haicheng and Tangshan Earthquakes Dragon-Kings?. Earth and Planetary Science Letters (in review) or [[preprint]](https://doi.org/10.48550/arXiv.2504.21310).
 
 
 #### 已接收/已出版｜Accepted/published
