@@ -3,3 +3,5 @@
 - On <strong>May 14, 2025</strong>, our paper titled <strong>“Revisiting Seismicity Criticality: A New Framework for Bias Correction of Statistical Seismology Model Calibrations”</strong> (by Jiawei Li, Didier Sornette, Zhongliang Wu, Jiancang Zhuang, and Changsheng Jiang) was accepted by <strong>Journal of Geophysical Research: Solid Earth</strong>.
 
 - On <strong>May 1, 2025</strong>, our preprint titled <strong>“Are Haicheng and Tangshan Earthquakes Dragon-Kings?”</strong> (by Jiawei Li and Didier Sornette) was released by <strong>arXiv</strong>. [[Preprint]](http://arxiv.org/abs/2504.21310)
+
+- On <strong>May 1, 2025</strong>, our chapter titled <strong>“Predictability of the May 12, 2008, Wenchuan Earthquake: Insights from the Perspective of ‘Dragon King’ Theory and ‘Nowcasting’ Method”</strong> (by Yue Liu, Jiawei Li, Yongxian Zhang and Zhongliang Wu) was published by <strong>Scientific Investigation of Continental Earthquakes and Relevant Studies (in: Li, YG., Zhang, Y., Wu, Z., Li, Y., Zhang, X. eds). Springer, Singapore</strong>. [[Chapter]](https://link.springer.com/chapter/10.1007/978-981-96-2826-1_7)
