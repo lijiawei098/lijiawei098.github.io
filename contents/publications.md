@@ -24,4 +24,12 @@
 
 2023
 
-- 
+- <strong>Li, J.</strong><sup>#</sup>, Mignan, A., Sornette, D., Feng, Y. (2023). Predicting the future performance of the planned seismic network in Chinese Mainland. Seismological Research Letters, 94(6), 2698-2711. [[Paper]](https://pubs.geoscienceworld.org/ssa/srl/article-abstract/94/6/2698/628090/Predicting-the-Future-Performance-of-the-Planned)
+
+- Zhang, Y., Wu, Z.<sup>#</sup>, Romanelli, F.<sup>#</sup>, Vaccari, F., Peresan, A., <strong>Li, J.</strong>, Panza, G. F. (2023). Earthquake early warning system (EEWS) empowered by time-dependent neo-deterministic seismic hazard assessment (T-NDSHA). Terra Nova, 35(3), 230-239. [[Paper]](https://onlinelibrary.wiley.com/doi/abs/10.1111/ter.12647)
+
+2022
+
+- <strong>Li, J.</strong><sup>#</sup>, Wyss, M., Wu, Z., Zhou, S. (2022). Estimated casualty risk for disaster preparation in five scenario great earthquakes, Sichuan-Yunnan region, China. In China Seismic Experimental Site: Theoretical Framework and Ongoing Practice, Li, Y.-G., Zhang, Y., Wu, Z. (eds) Springer, Singapore, 171-196. [[Chapter]](https://doi.org/10.1007/978-981-16-8607-8_9) [[Book]](https://link.springer.com/book/10.1007/978-981-16-8607-8)
+
+- Feng, Y.<sup>#</sup>, Mignan, A., Sornette, D., <strong>Li, J.</strong> (2022). Hierarchical Bayesian modeling for improved high-resolution mapping of the completeness magnitude of earthquake catalogs. Seismological Research Letters, 93(4): 2126-2137. [[Paper]](https://doi.org/10.1785/0220210368)
