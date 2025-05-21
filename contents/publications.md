@@ -8,7 +8,11 @@
 
 #### 已接收/已出版｜Accepted/published
 
+2025
 - <strong>Li, J.</strong><sup>#</sup>, Sornette, D.<sup>#</sup>, Wu, Z., Zhuang, J., Jiang, C. (2025). Revisiting Seismicity Criticality: A New Framework for Bias Correction of Statistical Seismology Model Calibrations. Journal of Geophysical Research: Solid Earth (to be published) or [[Preprint]](http://arxiv.org/abs/2404.16374).
 
 - Liu, Y., <strong>Li, J.</strong>, Zhang, Y.<sup>#</sup>, & Wu, Z.<sup>#</sup> (2025). Predictability of the May 12, 2008, Wenchuan Earthquake: Insights from the Perspective of ‘Dragon King’ Theory and ‘Nowcasting’ Method. In Scientific Investigation of Continental Earthquakes and Relevant Studies, Li, YG., Zhang, Y., Wu, Z., Li, Y., Zhang, X. (eds) Springer, Singapore, 101-111. [[Chapter]](https://doi.org/10.1007/978-981-96-2826-1_7) [[Book]](https://link.springer.com/book/10.1007/978-981-96-2826-1)
 
+- <strong>Li, J.</strong>, Sornette, D., & Feng, Y.<sup>#</sup> (2025). Estimating Earthquake Early Warning Effectiveness via Blind Zone Sizes: A Case Study of the Planned Seismic Network in Chinese Mainland. Natural Hazards, 121(6), 7783-7809. [[Paper]](https://link.springer.com/article/10.1007/s11069-024-07104-z)
+
+- 
