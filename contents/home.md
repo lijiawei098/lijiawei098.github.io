@@ -1,11 +1,17 @@
 
 
-[![senli1073](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/senli1073)
+[![Google Scholar]]([https://github.com/senli1073](https://scholar.google.com.hk/citations?user=_IZjtm4AAAAJ&hl=zh-CN))
 
-He is currently pursuing a Master's Degree in Computer Science, at School of Computer Science and Technology, China University of Mining and Technology, China.
+Senior Researcher, PhD
+Institute of Risk Analysis, Prediction and Management (Risks-X)
+Academy for Advanced Interdisciplinary Studies
+Southern University of Science and Technology (SUSTech)
+Shenzhen, Guangdong, P.R. China
 
 #### Email
-sli[at]cumt.edu.cn
+lijw3[at]sustech.edu.cn
+lijw[at]pku.edu.cn
+lijw[at]cea-igp.ac.cn
 
 #### Education
 M.E., Computer Science and Technology, China University of Mining and Technology, 2022—2025 (expected).\
