@@ -32,7 +32,7 @@
 
 - <strong>Li, J.</strong><sup>#</sup>, Wyss, M., Wu, Z., Zhou, S. (2022). Estimated casualty risk for disaster preparation in five scenario great earthquakes, Sichuan-Yunnan region, China. In China Seismic Experimental Site: Theoretical Framework and Ongoing Practice, Li, Y.-G., Zhang, Y., Wu, Z. (eds) Springer, Singapore, 171-196. [[Chapter]](https://doi.org/10.1007/978-981-16-8607-8_9) [[Book]](https://link.springer.com/book/10.1007/978-981-16-8607-8)
 
-- Feng, Y.<sup>#</sup>, Mignan, A., Sornette, D., <strong>Li, J.</strong> (2022). Hierarchical Bayesian modeling for improved high-resolution mapping of the completeness magnitude of earthquake catalogs. Seismological Research Letters, 93(4): 2126-2137. [[Paper]](https://doi.org/10.1785/0220210368)
+- Feng, Y.<sup>#</sup>, Mignan, A., Sornette, D., <strong>Li, J.</strong> (2022). Hierarchical Bayesian modeling for improved high-resolution mapping of the completeness magnitude of earthquake catalogs. Seismological Research Letters, 93(4), 2126-2137. [[Paper]](https://doi.org/10.1785/0220210368)
 
 2021
 
