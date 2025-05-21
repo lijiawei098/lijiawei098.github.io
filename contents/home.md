@@ -12,7 +12,7 @@ Academy for Advanced Interdisciplinary Studies\
 Southern University of Science and Technology (SUSTech)\
 Shenzhen, Guangdong, P.R. China
 
-#### 邮件｜Email
+#### 邮箱｜Email
 lijw3@sustech.edu.cn | lijw@pku.edu.cn | lijw@cea-igp.ac.cn
 
 #### 研究方向｜Research Interests
