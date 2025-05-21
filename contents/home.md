@@ -9,9 +9,7 @@ Southern University of Science and Technology (SUSTech)\
 Shenzhen, Guangdong, P.R. China
 
 #### Email
-lijw3@sustech.edu.cn\
-lijw@pku.edu.cn\
-lijw@cea-igp.ac.cn
+lijw3@sustech.edu.cn | lijw@pku.edu.cn | lijw@cea-igp.ac.cn
 
 #### Research Interests
 Statistical seismology, real-time seismology, earthquake forecasting, earthquake loss estimation.
