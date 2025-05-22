@@ -1,6 +1,8 @@
 
 
-[Google Scholar](https://scholar.google.com.hk/citations?user=_IZjtm4AAAAJ&hl=zh-CN) | [ResearchGate](https://www.researchgate.net/profile/Jiawei-Li-26) | [ORCID](https://orcid.org/0000-0003-1226-8162)
+<a href="https://scholar.google.com.hk/citations?user=_IZjtm4AAAAJ&hl=zh-CN" target="_blank">Google Scholar</a> | 
+<a href="https://www.researchgate.net/profile/Jiawei-Li-26" target="_blank">ResearchGate</a> | 
+<a href="https://orcid.org/0000-0003-1226-8162" target="_blank">ORCID</a>
 
 高级研究学者，博士\
 南方科技大学前沿与交叉科学研究院风险分析预测与管控研究院（Risks-X）\
