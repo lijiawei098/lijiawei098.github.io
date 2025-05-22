@@ -3,12 +3,11 @@
 <a href="https://orcid.org/0000-0003-1226-8162" target="_blank">ORCID</a>
 
 高级研究学者，博士\
-南方科技大学前沿与交叉科学研究院风险分析预测与管控研究院（Risks-X）\
+南方科技大学风险分析预测与管控研究院（Risks-X）\
 广东·深圳
 
 Senior Researcher, PhD\
 Institute of Risk Analysis, Prediction and Management (Risks-X)\
-Academy for Advanced Interdisciplinary Studies\
 Southern University of Science and Technology (SUSTech)\
 Shenzhen, Guangdong, P.R. China
 
