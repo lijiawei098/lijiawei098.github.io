@@ -50,7 +50,7 @@
 
 - <strong>Li, J.</strong>, Böse, M.<sup>#</sup>, Wyss, M., Wald, D. J., Hutchison, A., Clinton, J. F., Wu, Z., Jiang, C., Zhou, S. (2020). Estimating rupture dimensions of three major earthquakes in Sichuan, China, for early warning and rapid loss estimates. Bulletin of the Seismological Society of America, 110(2), 920-936. [[Paper]](https://pubs.geoscienceworld.org/ssa/bssa/article-abstract/110/2/920/580600/Estimating-Rupture-Dimensions-of-Three-Major)
 
-- <strong>Li, J.</strong>, Wu, Z.<sup>#</sup>, Jiang, C., Zhou, S., Zhang, Y. (2020). Simple models of complex slip distribution? A case study of the 2011 $M_{\mathrm{W}}\,7.1$ Van (eastern Turkey) earthquake. Pure and Applied Geophysics, 177(1), 387-395. [[Paper]](https://doi.org/10.1007/s00024-019-02167-7)
+- <strong>Li, J.</strong>, Wu, Z.<sup>#</sup>, Jiang, C., Zhou, S., Zhang, Y. (2020). Simple models of complex slip distribution? A case study of the 2011 $M_{\mathrm{W}}\ 7.1$ Van (eastern Turkey) earthquake. Pure and Applied Geophysics, 177(1), 387-395. [[Paper]](https://doi.org/10.1007/s00024-019-02167-7)
 
 2019
 
@@ -68,7 +68,7 @@
 
 2016
 
-- 宋潇潇, 王骞, 王亚文, <strong>李佳威</strong>, 毕金孟, 张盛峰<sup>#</sup>. (2016). 2016年8月24日意大利佩鲁贾 $M_{\mathrm{W}}\,6.2$ 地震的震情和灾情基本情况介绍. 国际地震动态, 第9期, 1-6.
+- 宋潇潇, 王骞, 王亚文, <strong>李佳威</strong>, 毕金孟, 张盛峰<sup>#</sup>. (2016). 2016年8月24日意大利佩鲁贾 $M_{\mathrm{W}}\ 6.2$ 地震的震情和灾情基本情况介绍. 国际地震动态, 第9期, 1-6.
 
 - <strong>李佳威</strong><sup>#</sup>, 吴忠良. (2016). 地震预警系统的“盲区”控制问题——以首都圈地震预警原型系统为例. 中国地震, 32(4), 584-594. [[Paper]](http://zgdz.eq-j.cn/zgdz/article/abstract/20160402?st=search)
 
