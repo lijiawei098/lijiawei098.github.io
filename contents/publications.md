@@ -1,10 +1,10 @@
 #### 审稿中｜Under review
 
-- <strong>Li, J.</strong><sup>#</sup>, Sornette, D.<sup>#</sup> (2025). Are Haicheng and Tangshan Earthquakes Dragon-Kings?. Earth and Planetary Science Letters (in review) or [[preprint]](https://doi.org/10.48550/arXiv.2504.21310).
+- <strong>Li, J.</strong><sup>#</sup>, Sornette, D.<sup>#</sup> (2025). Are Haicheng and Tangshan Earthquakes Dragon-Kings?. Earth and Planetary Science Letters (in review) or <a href="https://doi.org/10.48550/arXiv.2504.21310" target="_blank">[Preprint]</a>
 
-- 蒋策, <strong>李佳威</strong><sup>#</sup>. (2025). 有限断层破裂参数的实时估计及应用——以2008年5月12日汶川 $\mathbf{M}_{\mathrm{S}}\ 8.0$ 地震为例. 地球物理学报 (in review) or [[Preprint]](https://www.researchgate.net/publication/391920666_youxianduancengpoliecanshudeshishigujijiyingyong--yi2008nian5yue12riwenchuanMS_80dezhenweili)
+- 蒋策, <strong>李佳威</strong><sup>#</sup>. (2025). 有限断层破裂参数的实时估计及应用——以2008年5月12日汶川 $\mathbf{M}_{\mathrm{S}}\ 8.0$ 地震为例. 地球物理学报 (in review) or <a href="https://www.researchgate.net/publication/391920666_youxianduancengpoliecanshudeshishigujijiyingyong--yi2008nian5yue12riwenchuanMS_80dezhenweili" target="_blank">[Preprint]</a>
 
-- Wang, X., <strong>Li, J.</strong><sup>#</sup>, Feng, A., Sornette, D.<sup>#</sup> (2025). Estimating Magnitude Completeness in Earthquake Catalogs: A Comparative Study of Catalog-based Methods. Journal of Geophysical Research: Solid Earth or [[Preprint]](http://arxiv.org/abs/2502.17838)
+- Wang, X., <strong>Li, J.</strong><sup>#</sup>, Feng, A., Sornette, D.<sup>#</sup> (2025). Estimating Magnitude Completeness in Earthquake Catalogs: A Comparative Study of Catalog-based Methods. Journal of Geophysical Research: Solid Earth or <a href="http://arxiv.org/abs/2502.17838" target="_blank">[Preprint]</a>
 
 #### 已接收/已出版｜Accepted/published
 
