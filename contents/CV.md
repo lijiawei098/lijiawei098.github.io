@@ -10,7 +10,12 @@
   2014/09 - 2015/07: Joint M.Sc. Student, School of Earth Sciences, University of Chinese Academy of Sciences (UCAS).
 
 #### 教育经历｜Education
-
+- 2010/09 - 2014/07: 成都理工大学地球物理学院, 地球物理学, 理学学士, 导师: 梁春涛教授.\
+  2010/09 – 2014/07: B.Sc. in Geophysics, College of Geophysics, Chengdu University of Technology (CDUT); Supervisor: Prof. Chuntao Liang.
+- 2014/09 - 2017/07: 中国地震局地球物理研究所, 固体地球物理学, 理学硕士, 导师: 吴忠良研究员.\
+  2014/09 – 2017/07: M.Sc. in Solid Geophysics, Institute of Geophysics (IGP), China Earthquake Administration (CEA); Supervisor: Prof. Zhongliang Wu.
+- 2017/09 - 2020/07: 北京大学地球与空间科学学院(与中国地震局地球物理研究所联合培养), 固体地球物理学, 理学博士, 导师: 吴忠良研究员, 周仕勇教授.\
+  2017/09 – 2020/07: Ph.D. in Solid Geophysics, jointly trained at the School of Earth and Space Sciences (SESS), Peking University (PKU), and the Institute of Geophysics (IGP), China Earthquake Administration (CEA); Supervisors: Prof. Zhongliang Wu and Prof. Shiyong Zhou.
 
 #### 代表性论著｜Selected Publications
 
