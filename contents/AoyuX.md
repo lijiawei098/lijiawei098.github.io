@@ -18,14 +18,14 @@
 
 ---
 #### 季度报告｜Quarterly report
-- <a href="/contents/AoyuX/1_Monthly/AoyuX地震预测报告_2025年2季度_中文_高清.pdf" target="_blank">2025年2季度</a> | <a href="/contents/AoyuX/1_Monthly/AoyuXReport_SecondQuarter2025_English_highRes.pdf" target="_blank">2nd quarter 2025</a> | <a href="https://pan.baidu.com/s/1vUld6GHmfwkXtmrYGZeqAg?pwd=hc7i" target="_blank">[Data]</a>
-- <a href="/contents/AoyuX/1_Monthly/AoyuX地震预测报告_2025年1季度_中文.pdf" target="_blank">2025年1季度</a> | <a href="/contents/AoyuX/1_Monthly/AoyuXReport_FirstQuarter2025_English.pdf" target="_blank">1st quarter 2025</a> | <a href="https://pan.baidu.com/s/1jO3clQAGRZgtJwhn0pb-9Q?pwd=hqws" target="_blank">[Data]</a>
+- <a href="/contents/AoyuX/2_Quarterly/AoyuX地震预测报告_2025年2季度_中文_高清.pdf" target="_blank">2025年2季度</a> | <a href="/contents/AoyuX/2_Quarterly/AoyuXReport_SecondQuarter2025_English_highRes.pdf" target="_blank">2nd quarter 2025</a> | <a href="https://pan.baidu.com/s/1vUld6GHmfwkXtmrYGZeqAg?pwd=hc7i" target="_blank">[Data]</a>
+- <a href="/contents/AoyuX/2_Quarterly/AoyuX地震预测报告_2025年1季度_中文.pdf" target="_blank">2025年1季度</a> | <a href="/contents/AoyuX/2_Quarterly/AoyuXReport_FirstQuarter2025_English.pdf" target="_blank">1st quarter 2025</a> | <a href="https://pan.baidu.com/s/1jO3clQAGRZgtJwhn0pb-9Q?pwd=hqws" target="_blank">[Data]</a>
 
 ---
 #### 半年度报告｜Semiannual report
-- <a href="/contents/AoyuX/1_Monthly/AoyuX地震预测报告_2025年上半年_中文.pdf" target="_blank">2025年上半年</a> | <a href="/contents/AoyuX/1_Monthly/AoyuXReport_FirstHalfYear2025_English.pdf" target="_blank">1st half year 2025</a> | <a href="https://pan.baidu.com/s/1Uty_1FvImWkg2fWaAbNfTw?pwd=9y7z" target="_blank">[Data]</a>
-- <a href="/contents/AoyuX/1_Monthly/AoyuX地震预测报告_2024年下半年_中文.pdf" target="_blank">2025年下半年</a> | <a href="/contents/AoyuX/1_Monthly/AoyuXReport_SecondHalfYear2025_English.pdf" target="_blank">2nd half year 2025</a> | <a href="https://pan.baidu.com/s/1Zz6XLB7tMKNIf8jKMvdMZQ?pwd=dcq2" target="_blank">[Data]</a>
+- <a href="/contents/AoyuX/3_Semiannual/AoyuX地震预测报告_2025年上半年_中文.pdf" target="_blank">2025年上半年</a> | <a href="/contents/AoyuX/3_Semiannual/AoyuXReport_FirstHalfYear2025_English.pdf" target="_blank">1st half year 2025</a> | <a href="https://pan.baidu.com/s/1Uty_1FvImWkg2fWaAbNfTw?pwd=9y7z" target="_blank">[Data]</a>
+- <a href="/contents/AoyuX/3_Semiannual/AoyuX地震预测报告_2024年下半年_中文.pdf" target="_blank">2025年下半年</a> | <a href="/contents/AoyuX/3_Semiannual/AoyuXReport_SecondHalfYear2025_English.pdf" target="_blank">2nd half year 2025</a> | <a href="https://pan.baidu.com/s/1Zz6XLB7tMKNIf8jKMvdMZQ?pwd=dcq2" target="_blank">[Data]</a>
 
 ---
 #### 年度报告｜Annual report
-- <a href="/contents/AoyuX/1_Monthly/AoyuX地震预测报告_2025年_中文.pdf" target="_blank">2025年</a> | <a href="/contents/AoyuX/1_Monthly/AoyuXReport_2025_English.pdf" target="_blank">2025</a> | <a href="https://pan.baidu.com/s/1k-1L9vnsNZ0lE5ZAzcjMEg?pwd=qwej" target="_blank">[Data]</a>
+- <a href="/contents/AoyuX/4_Annual/AoyuX地震预测报告_2025年_中文.pdf" target="_blank">2025年</a> | <a href="/contents/AoyuX/4_Annual/AoyuXReport_2025_English.pdf" target="_blank">2025</a> | <a href="https://pan.baidu.com/s/1k-1L9vnsNZ0lE5ZAzcjMEg?pwd=qwej" target="_blank">[Data]</a>
