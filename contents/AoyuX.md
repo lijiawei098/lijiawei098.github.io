@@ -2,9 +2,9 @@
 ## AoyuX Earthquake Forecasting Report for China Seismic Experimental Site (CSES)
 ---
 #### 月度报告｜Monthly report
- - <a href="/contents/AoyuX/1_Monthly/AoyuX地震预测报告_2025年5月_中文_HighRes.pdf" target="_blank">2025年5月</a> | <a href="/contents/AoyuX/1_Monthly/AoyuXReport_May2025_English_HighRes.pdf" target="_blank">May 2025</a> | <a href="https://pan.baidu.com/s/1cFdfnjEamoaOxaO6YzVm-g?pwd=vtun" target="_blank">[Data]</a>
+- <a href="/contents/AoyuX/1_Monthly/AoyuX地震预测报告_2025年5月_中文_HighRes.pdf" target="_blank">2025年5月</a> | <a href="/contents/AoyuX/1_Monthly/AoyuXReport_May2025_English_HighRes.pdf" target="_blank">May 2025</a> | <a href="https://pan.baidu.com/s/1cFdfnjEamoaOxaO6YzVm-g?pwd=vtun" target="_blank">[Data]</a>
+- <a href="/contents/AoyuX/1_Monthly/AoyuX地震预测报告_2025年4月_中文_高清.pdf" target="_blank">2025年4月</a> | <a href="/contents/AoyuX/1_Monthly/AoyuXReport_April2025_English_highRes.pdf" target="_blank">Apr 2025</a> | <a href="https://pan.baidu.com/s/1Adv3oA7xPuAlXltFNBZhzw?pwd=secc" target="_blank">[Data]</a>
 
- - 2025年4月 | Apr 2025｜[[Data]](https://pan.baidu.com/s/1Adv3oA7xPuAlXltFNBZhzw?pwd=secc)
  - 2025年3月 | Mar 2025｜[[Data]](https://pan.baidu.com/s/172_DeL_VzPOKQbQMuuKpcQ?pwd=fnr2)
  - 2025年2月 | Feb 2025｜[[Data]](https://pan.baidu.com/s/1_VAwAIMJ5Aj-nbLuC3n6GQ?pwd=r9wy)
  - 2025年1月 | Jan 2025｜[[Data]](https://pan.baidu.com/s/1RoxDfCZw5d1CKT5R9FWp-w?pwd=t96z)
