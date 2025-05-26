@@ -1,3 +1,5 @@
+- <strong>May 25–30, 2025</strong>, we presented a poster titled <strong>“Beyond the Gutenberg-Richter law? Testing Dragon-king distributions in seismicity of China”</strong> (by Jiawei Li, and Didier Sornette) at Japan Geoscience Union Meeting 2025. <a href="https://www.jpgu.org/meeting_e2025/sessionlist_en/detail/S-SS12.html" target="_blank">[Info]</a>
+
 - <strong>May 16, 2025</strong>, our preprint titled <strong>“有限断层破裂参数的实时估计及应用——以2008年5月12日汶川 <strong>$M_{\mathrm{S}}\ 8.0$</strong> 地震为例”</strong> (by 蒋策 和 李佳威) was released by <strong>ResearchGate</strong>. <a href="https://www.researchgate.net/publication/391920666_youxianduancengpoliecanshudeshishigujijiyingyong--yi2008nian5yue12riwenchuanMS_80dezhenweili" target="_blank">[Preprint]</a>
 
 - <strong>May 14, 2025</strong>, our paper titled <strong>“Revisiting Seismicity Criticality: A New Framework for Bias Correction of Statistical Seismology Model Calibrations”</strong> (by Jiawei Li, Didier Sornette, Zhongliang Wu, Jiancang Zhuang, and Changsheng Jiang) was accepted by <strong>Journal of Geophysical Research: Solid Earth</strong>.
