@@ -1,4 +1,5 @@
-# Corresponding author
+<h1>Corresponding author</h1>
+
 #### 审稿中｜Under review
 
 - <strong>Li, J.</strong><sup>#</sup>, Sornette, D.<sup>#</sup> (2025). Are Haicheng and Tangshan Earthquakes Dragon-Kings?. Journal of Geophysical Research: Solid Earth (in review) or <a href="https://doi.org/10.48550/arXiv.2504.21310" target="_blank">[Preprint]</a>
