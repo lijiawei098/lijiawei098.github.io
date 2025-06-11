@@ -1,4 +1,4 @@
-<h1>Corresponding author</h1>
+<sup>#</sup> Corresponding author
 
 #### 审稿中｜Under review
 
