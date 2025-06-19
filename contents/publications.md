@@ -1,12 +1,16 @@
 <sup>#</sup> Corresponding author
 
+***
+
 #### 审稿中｜Under review
 
-- <strong>Li, J.</strong><sup>#</sup>, Sornette, D.<sup>#</sup> (2025). Are Haicheng and Tangshan Earthquakes Dragon-Kings?. Journal of Geophysical Research: Solid Earth (in review) or <a href="https://doi.org/10.48550/arXiv.2504.21310" target="_blank">[Preprint]</a>
+- <strong>Li, J.</strong><sup>#</sup>, Sornette, D.<sup>#</sup> (2025). Are Haicheng and Tangshan earthquakes dragon-kings?. Journal of Geophysical Research: Solid Earth (in review) or <a href="https://doi.org/10.48550/arXiv.2504.21310" target="_blank">[Preprint]</a> <a href="https://github.com/lijiawei098/SeisDK_v1" target="_blank">[Code]</a> 
 
 - 蒋策, <strong>李佳威</strong><sup>#</sup>. (2025). 有限断层破裂参数的实时估计及应用——以2008年5月12日汶川 $M_{\mathrm{S}}\ 8.0$ 地震为例. 地球物理学报 (in review) or <a href="https://www.researchgate.net/publication/391920666_youxianduancengpoliecanshudeshishigujijiyingyong--yi2008nian5yue12riwenchuanMS_80dezhenweili" target="_blank">[Preprint]</a>
 
 - Wang, X., <strong>Li, J.</strong><sup>#</sup>, Feng, A., Sornette, D.<sup>#</sup> (2025). Estimating Magnitude Completeness in Earthquake Catalogs: A Comparative Study of Catalog-based Methods. Journal of Geophysical Research: Solid Earth (major revision) or <a href="http://arxiv.org/abs/2502.17838" target="_blank">[Preprint]</a>
+
+---
 
 #### 已接收/已出版｜Accepted/published
 
