@@ -8,7 +8,7 @@
 
 - 蒋策, <strong>李佳威</strong><sup>#</sup>. (2025). 有限断层破裂参数的实时估计及应用——以2008年5月12日汶川 $M_{\mathrm{S}}\ 8.0$ 地震为例. 地球物理学报 (in review) or <a href="https://www.researchgate.net/publication/391920666_youxianduancengpoliecanshudeshishigujijiyingyong--yi2008nian5yue12riwenchuanMS_80dezhenweili" target="_blank">[Preprint]</a>
 
-- Wang, X., <strong>Li, J.</strong><sup>#</sup>, Feng, A., Sornette, D.<sup>#</sup> (2025). Estimating Magnitude Completeness in Earthquake Catalogs: A Comparative Study of Catalog-based Methods. Journal of Geophysical Research: Solid Earth (major revision) or <a href="http://arxiv.org/abs/2502.17838" target="_blank">[Preprint]</a>
+- Wang, X., <strong>Li, J.</strong><sup>#</sup>, Feng, A., Sornette, D.<sup>#</sup> (2025). Estimating magnitude completeness in earthquake catalogs: A comparative study of catalog-based methods. Journal of Geophysical Research: Solid Earth (major revision) or <a href="http://arxiv.org/abs/2502.17838" target="_blank">[Preprint]</a> <a href="https://github.com/lijiawei098/GR-gReLU" target="_blank">[Code]</a> 
 
 ---
 
@@ -18,7 +18,7 @@
 
 - <strong>Li, J.</strong><sup>#</sup>, Sornette, D.<sup>#</sup>, Wu, Z., Zhuang, J., Jiang, C. (2025). Revisiting seismicity criticality: A new framework for bias correction of statistical seismology model calibrations. Journal of Geophysical Research: Solid Earth, 130, e2024JB029337. <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024JB029337" target="_blank">[Link]</a> <a href="/contents/Papers/2025_JGR_MS.pdf" target="_blank">[PDF]</a> <a href="/contents/Papers/2025_JGR_SI.pdf" target="_blank">[SI]</a> <a href="/contents/Papers/2025_JGR_Data.xlsx" target="_blank">[Data]</a> 
 
-- Liu, Y., <strong>Li, J.</strong>, Zhang, Y.<sup>#</sup>, & Wu, Z.<sup>#</sup> (2025). Predictability of the May 12, 2008, Wenchuan Earthquake: Insights from the Perspective of ‘Dragon King’ Theory and ‘Nowcasting’ Method. In Scientific Investigation of Continental Earthquakes and Relevant Studies, Li, YG., Zhang, Y., Wu, Z., Li, Y., Zhang, X. (eds) Springer, Singapore, 101-111. [[Chapter]](https://doi.org/10.1007/978-981-96-2826-1_7) [[Book]](https://link.springer.com/book/10.1007/978-981-96-2826-1)
+- Liu, Y., <strong>Li, J.</strong>, Zhang, Y.<sup>#</sup>, & Wu, Z.<sup>#</sup> (2025). Predictability of the May 12, 2008, Wenchuan earthquake: Insights from the perspective of ‘dragon king’ theory and ‘nowcasting’ method. In Scientific Investigation of Continental Earthquakes and Relevant Studies, Li, YG., Zhang, Y., Wu, Z., Li, Y., Zhang, X. (eds) Springer, Singapore, 101-111. [[Link]](https://doi.org/10.1007/978-981-96-2826-1_7) [[Book link]](https://link.springer.com/book/10.1007/978-981-96-2826-1)
 
 - <strong>Li, J.</strong>, Sornette, D., & Feng, Y.<sup>#</sup> (2025). Estimating Earthquake Early Warning Effectiveness via Blind Zone Sizes: A Case Study of the Planned Seismic Network in Chinese Mainland. Natural Hazards, 121(6), 7783-7809. [[Paper]](https://link.springer.com/article/10.1007/s11069-024-07104-z)
 
