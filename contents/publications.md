@@ -1,4 +1,4 @@
-<sup>#</sup> Corresponding author; <sup>¥</sup> First author; 
+<sup>#</sup> Corresponding author; <sup>¥</sup> First author.
 
 ***
 
