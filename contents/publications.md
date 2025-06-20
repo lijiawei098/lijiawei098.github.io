@@ -30,9 +30,9 @@
 
 2023
 
-- <strong>Li, J.</strong><sup>#</sup>, Mignan, A., Sornette, D., Feng, Y. (2023). Predicting the future performance of the planned seismic network in Chinese Mainland. Seismological Research Letters, 94(6), 2698-2711. <a href="https://pubs.geoscienceworld.org/ssa/srl/article-abstract/94/6/2698/628090/Predicting-the-Future-Performance-of-the-Planned" target="_blank">[Link]</a> <a href="/contents/Papers/2024_SRL_MS.pdf" target="_blank">[PDF]</a> <a href="/contents/Papers/2024_SRL_SI.pdf" target="_blank">[SI]</a>
+- <strong>Li, J.</strong><sup>#</sup>, Mignan, A., Sornette, D., Feng, Y. (2023). Predicting the future performance of the planned seismic network in Chinese Mainland. Seismological Research Letters, 94(6), 2698-2711. <a href="https://pubs.geoscienceworld.org/ssa/srl/article-abstract/94/6/2698/628090/Predicting-the-Future-Performance-of-the-Planned" target="_blank">[Link]</a> <a href="/contents/Papers/2023_SRL_MS.pdf" target="_blank">[PDF]</a> <a href="/contents/Papers/2023_SRL_SI.pdf" target="_blank">[SI]</a>
 
-- Zhang, Y., Wu, Z.<sup>#</sup>, Romanelli, F.<sup>#</sup>, Vaccari, F., Peresan, A., <strong>Li, J.</strong>, Panza, G. F. (2023). Earthquake early warning system (EEWS) empowered by time-dependent neo-deterministic seismic hazard assessment (T-NDSHA). Terra Nova, 35(3), 230-239. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/ter.12647" target="_blank">[Link]</a> <a href="/contents/Papers/2024_TN_MS.pdf" target="_blank">[PDF]</a>
+- Zhang, Y., Wu, Z.<sup>#</sup>, Romanelli, F.<sup>#</sup>, Vaccari, F., Peresan, A., <strong>Li, J.</strong>, Panza, G. F. (2023). Earthquake early warning system (EEWS) empowered by time-dependent neo-deterministic seismic hazard assessment (T-NDSHA). Terra Nova, 35(3), 230-239. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/ter.12647" target="_blank">[Link]</a> <a href="/contents/Papers/2023_TN_MS.pdf" target="_blank">[PDF]</a>
 
 2022
 
