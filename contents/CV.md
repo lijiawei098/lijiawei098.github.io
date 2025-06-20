@@ -67,3 +67,6 @@
   - 地球物理学报
   - 地震地质
 - 会议组织｜Conference organization
+  - August 2024, 2024年拉美国家灾害管理研修班, Beijing & Shenzhen, China.
+  - March 2024, 13th International Workshop on Statistical Seismology (StatSei13), Shenzhen, China.
+  - September 2020, 亚太地球物理学生大会 (APGSC 2020), Heifei, Anhui & Online everywhere.
