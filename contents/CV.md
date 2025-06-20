@@ -18,7 +18,8 @@
   2010/09 – 2014/07: B.Sc. in Geophysics, College of Geophysics, Chengdu University of Technology (CDUT); Supervisor: Prof. Chuntao Liang.
 
 #### 代表性论著｜Selected Publications
-
+- <strong>Li, J.</strong><sup>¥</sup><sup>#</sup>, Sornette, D.<sup>¥</sup><sup>#</sup>, Wu, Z., Zhuang, J., Jiang, C. (2025). Revisiting seismicity criticality: A new framework for bias correction of statistical seismology model calibrations. Journal of Geophysical Research: Solid Earth, 130, e2024JB029337. <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024JB029337" target="_blank">[Link]</a> <a href="/contents/Papers/2025_JGR_MS.pdf" target="_blank">[PDF]</a> <a href="/contents/Papers/2025_JGR_SI.pdf" target="_blank">[SI]</a> <a href="/contents/Papers/2025_JGR_Data.xlsx" target="_blank">[Data]</a> 
+- <strong>Li, J.</strong>, Sornette, D., & Feng, Y.<sup>#</sup> (2025). Estimating earthquake early warning effectiveness via blind zone sizes: A case study of the new seismic network in Chinese mainland. Natural Hazards, 121(6), 7783-7809. <a href="https://link.springer.com/article/10.1007/s11069-024-07104-z" target="_blank">[Link]</a> <a href="/contents/Papers/2025_NH_MS.pdf" target="_blank">[PDF]</a> <a href="/contents/Papers/2025_NH_SI.pdf" target="_blank">[SI]</a>
 
 #### 项目基金｜Grants
 - 广东省自然科学基金-面上项目《大地震断层破裂面上静态复杂位错分布的表征研究》, 项目批准号: 2024A1515011568, 总经费: 15万元, 执行年限: 2024年1月-2026年12月, 主持, 在研.
