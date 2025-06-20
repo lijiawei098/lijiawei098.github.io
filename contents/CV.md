@@ -52,6 +52,18 @@
   - 2011年，四川省大学生跆拳道联谊赛竞技银牌.
 
 #### 学术活动｜Professional Activities
-- 客座编辑｜Guest editor
+- 客座编辑｜Guest editor<br>
+  - 2023, Han, P., Zhuang, J., Jiang, C., <strong>Li, J.</strong> (guest editors) Special Issue: Statistical Methods for Earthquake Hazard Assessment and Risk Analysis. <strong>Entropy</strong>.<br>
+  - 2025, Feng, Y., <strong>Li, J.</strong>, Jiang, C., Wang, R., Cao, W. (guest editors) Special Issue: Monitoring, Mechanisms, Modelling, and Management of Induced Seismicity. <strong>Rock Mechanics Bulletin</strong>.<br>
 - 期刊评审｜Referee service
+  - Earthquake Science (EQS)
+  - GeoHazards
+  - Applied Sciences
+  - Scientific Reports
+  - Natural Hazards
+  - Entropy
+  - Seismological Research Letters (SRL)
+  - Bulletin of the Seismological Society of America (BSSA)
+  - 地球物理学报
+  - 地震地质
 - 会议组织｜Conference organization
