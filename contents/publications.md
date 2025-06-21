@@ -18,7 +18,7 @@
 
 2025
 
-- <strong>Li, J.</strong><sup>¥</sup><sup>#</sup>, Sornette, D.<sup>¥</sup><sup>#</sup>, Wu, Z., Zhuang, J., Jiang, C. (2025). Revisiting seismicity criticality: A new framework for bias correction of statistical seismology model calibrations. Journal of Geophysical Research: Solid Earth, 130, e2024JB029337. <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024JB029337" target="_blank">[Link]</a> <a href="/contents/Papers/2025_JGR_MS.pdf" target="_blank">[PDF]</a> <a href="/contents/Papers/2025_JGR_SI.pdf" target="_blank">[SI]</a> <a href="/contents/Papers/2025_JGR_Data.xlsx" target="_blank">[Data]</a> 
+- <strong>Li, J.</strong><sup>¥</sup><sup>#</sup>, Sornette, D.<sup>¥</sup><sup>#</sup>, Wu, Z., Zhuang, J., Jiang, C. (2025). Revisiting seismicity criticality: A new framework for bias correction of statistical seismology model calibrations. Journal of Geophysical Research: Solid Earth, 130(6), e2024JB029337. <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024JB029337" target="_blank">[Link]</a> <a href="/contents/Papers/2025_JGR_MS.pdf" target="_blank">[PDF]</a> <a href="/contents/Papers/2025_JGR_SI.pdf" target="_blank">[SI]</a> <a href="/contents/Papers/2025_JGR_Data.xlsx" target="_blank">[Data]</a> 
 
 - Liu, Y., <strong>Li, J.</strong>, Zhang, Y.<sup>#</sup>, & Wu, Z.<sup>#</sup> (2025). Predictability of the May 12, 2008, Wenchuan earthquake: Insights from the perspective of ‘dragon king’ theory and ‘nowcasting’ method. In Scientific Investigation of Continental Earthquakes and Relevant Studies, Li, YG., Zhang, Y., Wu, Z., Li, Y., Zhang, X. (eds) Springer, Singapore, 101-111. [[Link]](https://doi.org/10.1007/978-981-96-2826-1_7) [[Book link]](https://link.springer.com/book/10.1007/978-981-96-2826-1)
 
