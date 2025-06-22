@@ -38,9 +38,9 @@
 
 2022
 
-- <strong>Li, J.</strong><sup>#</sup>, Wyss, M., Wu, Z., Zhou, S. (2022). Estimated casualty risk for disaster preparation in five scenario great earthquakes, Sichuan-Yunnan region, China. In China Seismic Experimental Site: Theoretical Framework and Ongoing Practice, Li, Y.-G., Zhang, Y., Wu, Z. (eds) Springer, Singapore, 171-196. <a href="https://doi.org/10.1007/978-981-16-8607-8_9" target="_blank">[Chapter link]</a> <a href="https://link.springer.com/book/10.1007/978-981-16-8607-8" target="_blank">[Book link]</a> <a href="/contents/Papers/2022_Chapter_MS.pdf" target="_blank">[PDF]</a> <a href="/contents/Papers/2022_Chapter_SI.pdf" target="_blank">[SI]</a>
+- <strong>Li, J.</strong><sup>#</sup>, Wyss, M., Wu, Z., Zhou, S. (2022). Estimated casualty risk for disaster preparation in five scenario great earthquakes, Sichuan-Yunnan region, China. In China Seismic Experimental Site: Theoretical Framework and Ongoing Practice, Li, Y.-G., Zhang, Y., Wu, Z. (eds) Springer, Singapore, 171-196. <a href="https://doi.org/10.1007/978-981-16-8607-8_9" target="_blank">[Chapter link]</a> <a href="https://link.springer.com/book/10.1007/978-981-16-8607-8" target="_blank">[Book link]</a> <a href="/contents/Papers/2022-Chapter_MS.pdf" target="_blank">[PDF]</a> <a href="/contents/Papers/2022-Chapter_SI.pdf" target="_blank">[SI]</a>
 
-- Feng, Y.<sup>#</sup>, Mignan, A., Sornette, D., <strong>Li, J.</strong> (2022). Hierarchical Bayesian modeling for improved high-resolution mapping of the completeness magnitude of earthquake catalogs. Seismological Research Letters, 93(4), 2126-2137. <a href="https://doi.org/10.1785/0220210368" target="_blank">[Link]</a> <a href="/contents/Papers/2022_SRL_MS.pdf" target="_blank">[PDF]</a>
+- Feng, Y.<sup>#</sup>, Mignan, A., Sornette, D., <strong>Li, J.</strong> (2022). Hierarchical Bayesian modeling for improved high-resolution mapping of the completeness magnitude of earthquake catalogs. Seismological Research Letters, 93(4), 2126-2137. <a href="https://doi.org/10.1785/0220210368" target="_blank">[Link]</a> <a href="/contents/Papers/2022-SRL_MS.pdf" target="_blank">[PDF]</a>
 
 2021
 
