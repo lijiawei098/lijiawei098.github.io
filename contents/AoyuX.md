@@ -75,13 +75,17 @@
   </thead>
   <tbody>
     <tr>
-      <td>  </td>
-      <td> <a href="/contents/AoyuX/2_Quarterly/AoyuX地震预测报告_2025年2季度_中文_高清.pdf" target="_blank">2025年2季度</a> 
-         | <a href="/contents/AoyuX/2_Quarterly/AoyuXReport_SecondQuarter2025_English_highRes.pdf" target="_blank">2nd quarter 2025</a> 
-         | <a href="https://pan.baidu.com/s/1vUld6GHmfwkXtmrYGZeqAg?pwd=hc7i" target="_blank">[Data]</a> </td>
-      <td> <a href="/contents/AoyuX/2_Quarterly/AoyuX地震预测报告_2025年1季度_中文.pdf" target="_blank">2025年1季度</a> 
-         | <a href="/contents/AoyuX/2_Quarterly/AoyuXReport_FirstQuarter2025_English.pdf" target="_blank">1st quarter 2025</a> 
-         | <a href="https://pan.baidu.com/s/1jO3clQAGRZgtJwhn0pb-9Q?pwd=hqws" target="_blank">[Data]</a> </td>
+      <td></td>
+      <td>
+        <a href="/contents/AoyuX/2_Quarterly/AoyuX地震预测报告_2025年2季度_中文_高清.pdf" target="_blank">2025年2季度</a> |
+        <a href="/contents/AoyuX/2_Quarterly/AoyuXReport_SecondQuarter2025_English_highRes.pdf" target="_blank">2nd quarter 2025</a> |
+        <a href="https://pan.baidu.com/s/1vUld6GHmfwkXtmrYGZeqAg?pwd=hc7i" target="_blank">[Data]</a>
+      </td>
+      <td>
+        <a href="/contents/AoyuX/2_Quarterly/AoyuX地震预测报告_2025年1季度_中文.pdf" target="_blank">2025年1季度</a> |
+        <a href="/contents/AoyuX/2_Quarterly/AoyuXReport_FirstQuarter2025_English.pdf" target="_blank">1st quarter 2025</a> |
+        <a href="https://pan.baidu.com/s/1jO3clQAGRZgtJwhn0pb-9Q?pwd=hqws" target="_blank">[Data]</a>
+      </td>
     </tr>
   </tbody>
 </table>
