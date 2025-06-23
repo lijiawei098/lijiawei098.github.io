@@ -15,7 +15,8 @@
 - <a href="/contents/AoyuX/1_Monthly/AoyuX地震预测报告_2024年9月_中文.pdf" target="_blank">2024年9月</a> | <a href="/contents/AoyuX/1_Monthly/AoyuXReport_September2024_English.pdf" target="_blank">Sep 2024</a> | <a href="https://pan.baidu.com/s/11kJYCmEtzzWMfkonYV59lA?pwd=vvwi" target="_blank">[Data]</a>
 - <a href="/contents/AoyuX/1_Monthly/AoyuX地震预测报告_2024年8月_中文.pdf" target="_blank">2024年8月</a> | <a href="/contents/AoyuX/1_Monthly/AoyuXReport_August2024_English.pdf" target="_blank">Aug 2024</a> | <a href="https://pan.baidu.com/s/1psBR3x4qCpY8vOV1n-qFoQ?pwd=qs2r" target="_blank">[Data]</a>
 - <a href="/contents/AoyuX/1_Monthly/AoyuX地震预测报告_2024年7月_中文.pdf" target="_blank">2024年7月</a> | <a href="/contents/AoyuX/1_Monthly/AoyuXReport_July2024_English.pdf" target="_blank">Jul 2024</a> | <a href="https://pan.baidu.com/s/1GCJUvMMVHgQ6BUsMisuZrA?pwd=s9hp" target="_blank">[Data]</a>
-- <a href="/contents/AoyuX/1_Monthly/AoyuX地震预测报告_2024年6月_中文.pdf" target="_blank">2024年6月</a> | <a href="/contents/AoyuX/1_Monthly/AoyuXReport_June2024_English.pdf" target="_blank">Jun 2024</a> | <a href="https://pan.baidu.com/s/1WAHjD6vDX256CJRh5BHKdQ?pwd=hass" target="_blank">[Data]</a>
+<span style="display:inline-block; width: 100px;"></span>
+<a href="/contents/AoyuX/1_Monthly/AoyuX地震预测报告_2024年6月_中文.pdf" target="_blank">2024年6月</a> | <a href="/contents/AoyuX/1_Monthly/AoyuXReport_June2024_English.pdf" target="_blank">Jun 2024</a> | <a href="https://pan.baidu.com/s/1WAHjD6vDX256CJRh5BHKdQ?pwd=hass" target="_blank">[Data]</a>
 
 ---
 #### 季度报告｜Quarterly report
