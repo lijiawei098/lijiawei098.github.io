@@ -2,6 +2,7 @@
 ## AoyuX Earthquake Forecasting Report for China Seismic Experimental Site (CSES)
 
 ---
+{% raw %}
 <table>
   <thead>
     <tr>
@@ -62,8 +63,10 @@
     </tr>
   </tbody>
 </table>
+{% endraw %}
 
 ---
+{% raw %}
 <table>
   <thead>
     <tr>
@@ -82,8 +85,10 @@
     </tr>
   </tbody>
 </table>
+{% endraw %}
 
 ---
+{% raw %}
 <table>
   <thead>
     <tr>
@@ -102,8 +107,10 @@
     </tr>
   </tbody>
 </table>
+{% endraw %}
 
 ---
+{% raw %}
 <table>
   <thead>
     <tr>
@@ -120,3 +127,4 @@
     </tr>
   </tbody>
 </table>
+{% endraw %}
