@@ -145,6 +145,15 @@
         </div>
     </footer>
 
+    <script type="text/javascript">
+        fetch('contents/aoyux.md')
+            .then(response => response.text())
+            .then(text => {
+                document.getElementById("AoyuX-md").innerHTML = marked.parse(text);
+            });
+    </script>
+
+
 </body>
 
 </html>
