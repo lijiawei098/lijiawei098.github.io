@@ -12,7 +12,7 @@
 
 - <strong>May 14, 2025</strong>, our paper titled <strong>“Revisiting seismicity criticality: A new framework for bias correction of statistical seismology model calibrations”</strong> (by Jiawei Li, Didier Sornette, Zhongliang Wu, Jiancang Zhuang, and Changsheng Jiang) was accepted by <strong>Journal of Geophysical Research: Solid Earth</strong>. <a href="https://arxiv.org/abs/2404.16374" target="_blank">[Preprint]</a>
 
-- <strong>May 5, 2025</strong>, our special issue titled <strong>“Monitoring, Mechanisms, Modelling, and Management of Induced Seismicity”</strong> (Guest Editors: Feng, Y., Li, J., Jiang, C., Wang, R., Cao, W.) in <strong>Rock Mechanics Bulletin</strong> officially opened for submissions.
+- <strong>May 5, 2025</strong>, our special issue titled <strong>“Monitoring, Mechanisms, Modelling, and Management of Induced Seismicity”</strong> (Guest Editors: Feng, Y., Li, J., Jiang, C., Wang, R., Cao, W.) in <strong>Rock Mechanics Bulletin</strong> officially opened for submissions. <a href="https://www.sciencedirect.com/special-issue/101BW4G93Q1" target="_blank">[Link]</a>
 
 - <strong>May 1, 2025</strong>, our preprint titled <strong>“Are Haicheng and Tangshan Earthquakes Dragon-Kings?”</strong> (by Jiawei Li and Didier Sornette) was released by <strong>arXiv</strong>. <a href="http://arxiv.org/abs/2504.21310" target="_blank">[Preprint]</a>
 
