@@ -1,5 +1,7 @@
 - <strong>June 23, 2025</strong>, our preprint titled <strong>“Unifying the Gutenberg-Richter law with probabilistic catalog completeness”</strong> (by Jiawei Li, Xinyi Wang, and Didier Sornette) was released by <strong>arXiv</strong>. <a href="http://arxiv.org/abs/2506.16849" target="_blank">[Preprint]</a>
 
+- <strong>June 18, 2025</strong>, our visiting master's student Qingyuan Zhang received an internship offer from <strong>Peak Re</strong>, a reinsurance company based in Hong Kong.
+
 - <strong>June 18, 2025</strong>, our paper titled <strong>“Revisiting seismicity criticality: A new framework for bias correction of statistical seismology model calibrations”</strong> (by Jiawei Li, Didier Sornette, Zhongliang Wu, Jiancang Zhuang, and Changsheng Jiang) was published by <strong>Journal of Geophysical Research: Solid Earth</strong>. <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024JB029337" target="_blank">[Link]</a> <a href="/contents/Papers/2025_JGR_MS.pdf" target="_blank">[PDF]</a> <a href="/contents/Papers/2025_JGR_SI.pdf" target="_blank">[SI]</a> <a href="/contents/Papers/2025_JGR_Data.xlsx" target="_blank">[Data]</a> 
 
 - <strong>June 3, 2025</strong>, we have released the <strong>June issue of the AoyuX Monthly Earthquake Forecasting Report for the China Seismic Experimental Site (CSES)</strong>. <a href="/contents/AoyuX/1_Monthly/AoyuX地震预测报告_2025年6月_中文_高清.pdf" target="_blank">2025年6月</a> | <a href="/contents/AoyuX/1_Monthly/AoyuXReport_June2025_English_HighRes.pdf" target="_blank">June 2025</a> | <a href="https://pan.baidu.com/s/1PBEURBfPgvwJulmcRfKjiw?pwd=2ixu" target="_blank">[Data]</a>
@@ -9,6 +11,8 @@
 - <strong>May 16, 2025</strong>, our preprint titled <strong>“有限断层破裂参数的实时估计及应用——以2008年5月12日汶川 <strong>$M_{\mathrm{S}}\ 8.0$</strong> 地震为例”</strong> (by 蒋策 和 李佳威) was released by <strong>ResearchGate</strong>. <a href="https://www.researchgate.net/publication/391920666_youxianduancengpoliecanshudeshishigujijiyingyong--yi2008nian5yue12riwenchuanMS_80dezhenweili" target="_blank">[Preprint]</a>
 
 - <strong>May 14, 2025</strong>, our paper titled <strong>“Revisiting seismicity criticality: A new framework for bias correction of statistical seismology model calibrations”</strong> (by Jiawei Li, Didier Sornette, Zhongliang Wu, Jiancang Zhuang, and Changsheng Jiang) was accepted by <strong>Journal of Geophysical Research: Solid Earth</strong>. <a href="https://arxiv.org/abs/2404.16374" target="_blank">[Preprint]</a>
+
+- <strong>May 5, 2025</strong>, our special issue titled <strong>“Monitoring, Mechanisms, Modelling, and Management of Induced Seismicity”</strong> (Guest Editors: Feng, Y., Li, J., Jiang, C., Wang, R., Cao, W.) in <strong>Rock Mechanics Bulletin</strong> officially opened for submissions.
 
 - <strong>May 1, 2025</strong>, our preprint titled <strong>“Are Haicheng and Tangshan Earthquakes Dragon-Kings?”</strong> (by Jiawei Li and Didier Sornette) was released by <strong>arXiv</strong>. <a href="http://arxiv.org/abs/2504.21310" target="_blank">[Preprint]</a>
 
