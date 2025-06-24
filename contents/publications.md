@@ -4,7 +4,7 @@
 
 #### 审稿中｜Under review
 
-- <strong>Li, J.</strong><sup>¥</sup><sup>#</sup>, Wang, X.<sup>¥</sup>,  Sornette, D.<sup>#</sup> (2025). Unifying the Gutenberg-Richter law with probabilistic catalog completeness. Nature Communications (submitted) or <a href="http://arxiv.org/abs/2506.16849" target="_blank">[Preprint]</a> <a href="https://github.com/lijiawei098/GR-gReLU" target="_blank">[Code]</a> 
+- <strong>Li, J.</strong><sup>¥</sup><sup>#</sup>, Wang, X.<sup>¥</sup>,  Sornette, D.<sup>#</sup> (2025). Unifying the Gutenberg-Richter law with probabilistic catalog completeness. Communications Earth & Environment (submitted) or <a href="http://arxiv.org/abs/2506.16849" target="_blank">[Preprint]</a> <a href="https://github.com/lijiawei098/GR-gReLU" target="_blank">[Code]</a> 
 
 - <strong>Li, J.</strong><sup>#</sup>, Sornette, D.<sup>#</sup> (2025). Are Haicheng and Tangshan earthquakes dragon-kings?. Journal of Geophysical Research: Solid Earth (in review) or <a href="https://doi.org/10.48550/arXiv.2504.21310" target="_blank">[Preprint]</a> <a href="https://github.com/lijiawei098/SeisDK_v1" target="_blank">[Code]</a> 
 
