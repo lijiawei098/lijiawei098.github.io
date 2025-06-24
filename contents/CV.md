@@ -53,8 +53,8 @@
 
 #### 学术活动｜Professional Activities
 - 客座编辑｜Guest editor<br>
-  - 2023, Han, P., Zhuang, J., Jiang, C., <strong>Li, J.</strong> (guest editors) Special Issue: Statistical Methods for Earthquake Hazard Assessment and Risk Analysis. <strong>Entropy</strong>.<br>
-  - 2025, Feng, Y., <strong>Li, J.</strong>, Jiang, C., Wang, R., Cao, W. (guest editors) Special Issue: Monitoring, Mechanisms, Modelling, and Management of Induced Seismicity. <strong>Rock Mechanics Bulletin</strong>.<br>
+  - 2025, Feng, Y., <strong>Li, J.</strong>, Jiang, C., Wang, R., Cao, W. (guest editors) Special Issue: Monitoring, Mechanisms, Modelling, and Management of Induced Seismicity. <strong>Rock Mechanics Bulletin</strong>.<br> <a href="https://www.sciencedirect.com/special-issue/101BW4G93Q1" target="_blank">[Link]</a>
+  - 2023, Han, P., Zhuang, J., Jiang, C., <strong>Li, J.</strong> (guest editors) Special Issue: Statistical Methods for Earthquake Hazard Assessment and Risk Analysis. <strong>Entropy</strong>.<br> <a href="https://www.mdpi.com/journal/entropy/special_issues/29J4RWH399" target="_blank">[Link]</a>
 - 期刊评审｜Referee service
   - Earthquake Science (EQS)
   - GeoHazards
