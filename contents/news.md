@@ -1,6 +1,8 @@
+- <strong>June 30, 2025</strong>, Lan Zhao, a master's graduate from HMU, officially joined us as a research assistant.
+
 - <strong>June 23, 2025</strong>, our preprint titled <strong>“Unifying the Gutenberg-Richter law with probabilistic catalog completeness”</strong> (by Jiawei Li, Xinyi Wang, and Didier Sornette) was released by <strong>arXiv</strong>. <a href="http://arxiv.org/abs/2506.16849" target="_blank">[Preprint]</a>
 
-- <strong>June 18, 2025</strong>, our visiting master's student Qingyuan Zhang received an internship offer from <strong>Peak Re</strong>, a reinsurance company based in Hong Kong.
+- <strong>June 18, 2025</strong>, our visiting master's student Qingyuan Zhang from BNU received an internship offer from <strong>Peak Re</strong>, a reinsurance company based in Hong Kong.
 
 - <strong>June 18, 2025</strong>, our paper titled <strong>“Revisiting seismicity criticality: A new framework for bias correction of statistical seismology model calibrations”</strong> (by Jiawei Li, Didier Sornette, Zhongliang Wu, Jiancang Zhuang, and Changsheng Jiang) was published by <strong>Journal of Geophysical Research: Solid Earth</strong>. <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024JB029337" target="_blank">[Link]</a> <a href="/contents/Papers/2025_JGR_MS.pdf" target="_blank">[PDF]</a> <a href="/contents/Papers/2025_JGR_SI.pdf" target="_blank">[SI]</a> <a href="/contents/Papers/2025_JGR_Data.xlsx" target="_blank">[Data]</a> 
 
