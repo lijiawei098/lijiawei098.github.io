@@ -49,8 +49,8 @@
 ---
 #### 季度报告｜Quarterly report
 - <a href="/contents/AoyuX/2_Quarterly/AoyuX地震预测报告_2025年3季度_中文_高清.pdf" target="_blank">2025年3季度</a>
-         | <a href="/contents/AoyuX/2_Quarterly/AoyuXReport_ThirdQuarter2025_English_highRes.pdf" target="_blank">3rd quarter 2025</a>
-         | <a href="https://pan.baidu.com/s/1vUld6GHmfwkXtmrYGZeqAg?pwd=hc7i" target="_blank">[Data]</a>
+         | <a href="/contents/AoyuX/2_Quarterly/AoyuXReport_ThirdQuarter2025_English_HighRes.pdf" target="_blank">3rd quarter 2025</a>
+         | <a href="https://pan.baidu.com/s/1EWvEosjOi_Y5ZQSoL-p48A?pwd=yyqv" target="_blank">[Data]</a>
 - <a href="/contents/AoyuX/2_Quarterly/AoyuX地震预测报告_2025年2季度_中文_高清.pdf" target="_blank">2025年2季度</a>
          | <a href="/contents/AoyuX/2_Quarterly/AoyuXReport_SecondQuarter2025_English_highRes.pdf" target="_blank">2nd quarter 2025</a>
          | <a href="https://pan.baidu.com/s/1vUld6GHmfwkXtmrYGZeqAg?pwd=hc7i" target="_blank">[Data]</a>
@@ -61,8 +61,8 @@
 ---
 #### 半年度报告｜Semiannual report
 - <a href="/contents/AoyuX/3_Semiannual/AoyuX地震预测报告_2025年下半年_中文_HighRes.pdf" target="_blank">2025年下半年</a> 
-         | <a href="/contents/AoyuX/3_Semiannual/AoyuXReport_SecondHalfYear2025_English.pdf" target="_blank">2nd half year 2025</a> 
-         | <a href="https://pan.baidu.com/s/1Uty_1FvImWkg2fWaAbNfTw?pwd=9y7z" target="_blank">[Data]</a> </td>
+         | <a href="/contents/AoyuX/3_Semiannual/AoyuXReport_SecondHalfYear2025_English_HighRes.pdf" target="_blank">2nd half year 2025</a> 
+         | <a href="https://pan.baidu.com/s/1ueK6UGyd7gaz_iUdUawJBg?pwd=u57n" target="_blank">[Data]</a> </td>
 - <a href="/contents/AoyuX/3_Semiannual/AoyuX地震预测报告_2025年上半年_中文.pdf" target="_blank">2025年上半年</a> 
          | <a href="/contents/AoyuX/3_Semiannual/AoyuXReport_FirstHalfYear2025_English.pdf" target="_blank">1st half year 2025</a> 
          | <a href="https://pan.baidu.com/s/1Uty_1FvImWkg2fWaAbNfTw?pwd=9y7z" target="_blank">[Data]</a> </td>
