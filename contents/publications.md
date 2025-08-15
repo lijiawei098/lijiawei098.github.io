@@ -10,9 +10,9 @@
 
 - <strong>Li, J.</strong><sup>#</sup>, Sornette, D.<sup>#</sup> (2025). Haicheng and Tangshan earthquakes as potential dragon-kings. Science China Earth Sciences (under review) or <a href="https://doi.org/10.48550/arXiv.2504.21310" target="_blank">[Preprint]</a> <a href="https://github.com/lijiawei098/SeisDK_v1" target="_blank">[Code]</a> 
 
-- 蒋策, <strong>李佳威</strong><sup>#</sup>. (2025). 有限断层破裂参数的实时估计及应用——以2008年5月12日汶川 $M_{\mathrm{S}}\ 8.0$ 地震为例. 地球物理学报 (under review) or <a href="https://www.researchgate.net/publication/391920666_youxianduancengpoliecanshudeshishigujijiyingyong--yi2008nian5yue12riwenchuanMS_80dezhenweili" target="_blank">[Preprint]</a>
+- 蒋策, <strong>李佳威</strong><sup>#</sup>. (2025). 有限断层破裂参数的实时估计及应用——以2008年5月12日汶川 $M_{\mathrm{S}}\ 8.0$ 地震为例. 地球物理学报 (major revision) or <a href="https://www.researchgate.net/publication/391920666_youxianduancengpoliecanshudeshishigujijiyingyong--yi2008nian5yue12riwenchuanMS_80dezhenweili" target="_blank">[Preprint]</a>
 
-- Wang, X., <strong>Li, J.</strong><sup>#</sup>, Feng, A., Sornette, D.<sup>#</sup> (2025). Estimating magnitude completeness in earthquake catalogs: A comparative study of catalog-based methods. Journal of Geophysical Research: Solid Earth (major revision) or <a href="http://arxiv.org/abs/2502.17838" target="_blank">[Preprint]</a> <a href="https://github.com/lijiawei098/GR-gReLU" target="_blank">[Code]</a> 
+- Wang, X., <strong>Li, J.</strong><sup>#</sup>, Feng, A., Sornette, D.<sup>#</sup> (2025). Estimating magnitude completeness in earthquake catalogs: A comparative study of catalog-based methods. Journal of Geophysical Research: Solid Earth (minor revision) or <a href="http://arxiv.org/abs/2502.17838" target="_blank">[Preprint]</a> <a href="https://github.com/lijiawei098/GR-gReLU" target="_blank">[Code]</a> 
 
 ---
 
