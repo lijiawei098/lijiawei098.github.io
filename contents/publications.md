@@ -12,13 +12,14 @@
 
 - 蒋策, <strong>李佳威</strong><sup>#</sup>. (2025). 有限断层破裂参数的实时估计及应用——以2008年5月12日汶川 $M_{\mathrm{S}}\ 8.0$ 地震为例. 地球物理学报 (major revision) or <a href="https://www.researchgate.net/publication/391920666_youxianduancengpoliecanshudeshishigujijiyingyong--yi2008nian5yue12riwenchuanMS_80dezhenweili" target="_blank">[Preprint]</a>
 
-- Wang, X., <strong>Li, J.</strong><sup>#</sup>, Feng, A., Sornette, D.<sup>#</sup> (2025). Estimating magnitude completeness in earthquake catalogs: A comparative study of catalog-based methods. Journal of Geophysical Research: Solid Earth (minor revision) or <a href="http://arxiv.org/abs/2502.17838" target="_blank">[Preprint]</a> <a href="https://github.com/lijiawei098/GR-gReLU" target="_blank">[Code]</a> 
 
 ---
 
 #### 已接收/已出版｜Accepted/published
 
 2025
+
+- Wang, X., <strong>Li, J.</strong><sup>#</sup>, Feng, A., Sornette, D. (2025). Estimating magnitude completeness in earthquake catalogs: A comparative study of catalog-based methods. Journal of Geophysical Research: Solid Earth (in press) or <a href="http://arxiv.org/abs/2502.17838" target="_blank">[Preprint]</a> <a href="https://github.com/lijiawei098/GR-gReLU" target="_blank">[Code]</a> 
 
 - <strong>Li, J.</strong><sup>¥</sup><sup>#</sup>, Sornette, D.<sup>¥</sup><sup>#</sup>, Wu, Z., Zhuang, J., Jiang, C. (2025). Revisiting seismicity criticality: A new framework for bias correction of statistical seismology model calibrations. Journal of Geophysical Research: Solid Earth, 130(6), e2024JB029337. <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024JB029337" target="_blank">[Link]</a> <a href="/contents/Papers/2025_JGR_MS.pdf" target="_blank">[PDF]</a> <a href="/contents/Papers/2025_JGR_SI.pdf" target="_blank">[SI]</a> <a href="/contents/Papers/2025_JGR_Data.xlsx" target="_blank">[Data]</a> 
 
