@@ -3,6 +3,9 @@
 
 ---
 #### 月度报告｜Monthly report
+- <a href="/contents/AoyuX/1_Monthly/AoyuX地震预测报告_2025年9月_中文_高清.pdf" target="_blank">2025年9月</a> 
+         | <a href="/contents/AoyuX/1_Monthly/AoyuXReport_September2025_English_HighRes.pdf" target="_blank">September 2025</a> 
+         | <a href="https://pan.baidu.com/s/1FVis3EqrU3xnzTsGEoss_g?pwd=gau7" target="_blank">[Data]</a> </td>
 - <a href="/contents/AoyuX/1_Monthly/AoyuX地震预测报告_2025年8月_中文_高清.pdf" target="_blank">2025年8月</a> 
          | <a href="/contents/AoyuX/1_Monthly/AoyuXReport_August2025_English_HighRes.pdf" target="_blank">August 2025</a> 
          | <a href="https://pan.baidu.com/s/1cV5Grude2nJu9wkT2RoCSg?pwd=h2ud" target="_blank">[Data]</a> </td>
