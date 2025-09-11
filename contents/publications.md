@@ -6,7 +6,7 @@
 
 - Sornette, D.<sup>#</sup>, Zaccagnino, D.<sup>#</sup>, <strong>Li, J.</strong> (2025). Fertility-tapered ETAS reveals significant earthquake productivity below catalog completeness. Journal of Geophysical Research: Solid Earth (under review)
 
-- <strong>Li, J.</strong><sup>¥</sup><sup>#</sup>, Wang, X.<sup>¥</sup>,  Sornette, D.<sup>#</sup> (2025). Unifying the Gutenberg-Richter law with probabilistic catalog completeness. Seismological Research Letters (under review) or <a href="http://arxiv.org/abs/2506.16849" target="_blank">[Preprint]</a> <a href="https://github.com/lijiawei098/GR-gReLU" target="_blank">[Code]</a> 
+- <strong>Li, J.</strong><sup>¥</sup><sup>#</sup>, Wang, X.<sup>¥</sup>,  Sornette, D. (2025). Unifying the Gutenberg-Richter law with probabilistic catalog completeness. Seismological Research Letters (under review) or <a href="http://arxiv.org/abs/2506.16849" target="_blank">[Preprint]</a> <a href="https://github.com/lijiawei098/GR-gReLU" target="_blank">[Code]</a> 
 
 - <strong>Li, J.</strong><sup>#</sup>, Sornette, D.<sup>#</sup> (2025). Haicheng and Tangshan earthquakes as potential dragon-kings. Science China Earth Sciences (under review) or <a href="https://doi.org/10.48550/arXiv.2504.21310" target="_blank">[Preprint]</a> <a href="https://github.com/lijiawei098/SeisDK_v1" target="_blank">[Code]</a> 
 
@@ -19,7 +19,7 @@
 
 2025
 
-- Wang, X., <strong>Li, J.</strong><sup>#</sup>, Feng, A., Sornette, D. (2025). Estimating magnitude completeness in earthquake catalogs: A comparative study of catalog-based methods. Journal of Geophysical Research: Solid Earth (in press) or <a href="http://arxiv.org/abs/2502.17838" target="_blank">[Preprint]</a> <a href="https://github.com/lijiawei098/GR-gReLU" target="_blank">[Code]</a> 
+- Wang, X., <strong>Li, J.</strong><sup>#</sup>, Feng, A., Sornette, D. (2025). Estimating magnitude completeness in earthquake catalogs: A comparative study of catalog-based methods. Journal of Geophysical Research: Solid Earth, 130(9), e2025JB031441. <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025JB031441" target="_blank">[Link]</a> <a href="/contents/Papers/2025_JGR_Mc_MS.pdf" target="_blank">[PDF]</a> <a href="/contents/Papers/2025_JGR_Mc_SI.pdf" target="_blank">[SI]</a> <a href="https://github.com/lijiawei098/GR-gReLU" target="_blank">[Code]</a> 
 
 - <strong>Li, J.</strong><sup>¥</sup><sup>#</sup>, Sornette, D.<sup>¥</sup><sup>#</sup>, Wu, Z., Zhuang, J., Jiang, C. (2025). Revisiting seismicity criticality: A new framework for bias correction of statistical seismology model calibrations. Journal of Geophysical Research: Solid Earth, 130(6), e2024JB029337. <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024JB029337" target="_blank">[Link]</a> <a href="/contents/Papers/2025_JGR_MS.pdf" target="_blank">[PDF]</a> <a href="/contents/Papers/2025_JGR_SI.pdf" target="_blank">[SI]</a> <a href="/contents/Papers/2025_JGR_Data.xlsx" target="_blank">[Data]</a> 
 
