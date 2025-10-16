@@ -3,6 +3,9 @@
 
 ---
 #### 月度报告｜Monthly report
+- <a href="/contents/AoyuX/1_Monthly/AoyuX地震预测报告_2025年10月_中文_高清.pdf" target="_blank">2025年10月</a> 
+         | <a href="/contents/AoyuX/1_Monthly/AoyuXReport_October2025_English_HighRes.pdf" target="_blank">October 2025</a> 
+         | <a href="https://pan.baidu.com/s/1Lz2FBb7RJEnoZA8xjcayLw?pwd=cmyw" target="_blank">[Data]</a> </td>
 - <a href="/contents/AoyuX/1_Monthly/AoyuX地震预测报告_2025年9月_中文_高清.pdf" target="_blank">2025年9月</a> 
          | <a href="/contents/AoyuX/1_Monthly/AoyuXReport_September2025_English_HighRes.pdf" target="_blank">September 2025</a> 
          | <a href="https://pan.baidu.com/s/1FVis3EqrU3xnzTsGEoss_g?pwd=gau7" target="_blank">[Data]</a> </td>
@@ -54,6 +57,9 @@
 
 ---
 #### 季度报告｜Quarterly report
+- <a href="/contents/AoyuX/2_Quarterly/AoyuX地震预测报告_2025年4季度_中文_高清.pdf" target="_blank">2025年4季度</a>
+         | <a href="/contents/AoyuX/2_Quarterly/AoyuXReport_ForthQuarter2025_English_HighRes.pdf" target="_blank">4th quarter 2025</a>
+         | <a href="https://pan.baidu.com/s/1UdWMhP8I9DVurA_OZNee6Q?pwd=5e78" target="_blank">[Data]</a>
 - <a href="/contents/AoyuX/2_Quarterly/AoyuX地震预测报告_2025年3季度_中文_高清.pdf" target="_blank">2025年3季度</a>
          | <a href="/contents/AoyuX/2_Quarterly/AoyuXReport_ThirdQuarter2025_English_HighRes.pdf" target="_blank">3rd quarter 2025</a>
          | <a href="https://pan.baidu.com/s/1EWvEosjOi_Y5ZQSoL-p48A?pwd=yyqv" target="_blank">[Data]</a>
