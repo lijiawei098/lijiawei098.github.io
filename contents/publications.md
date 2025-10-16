@@ -4,7 +4,7 @@
 
 #### 审稿中｜Under review
 
-- <strong>Li, J.</strong><sup>¥</sup><sup>#</sup>, Qingyuan Zhang<sup>¥</sup>， Sornette, D.<sup>¥</sup> (2025). Launching AoyuX: A 25-year pseudo-prospective earthquake forecasting experiment at the China Seismic Experimental Site. Journal of Geophysical Research: Solid Earth (submitted)
+- <strong>Li, J.</strong><sup>¥</sup><sup>#</sup>, Qingyuan Zhang<sup>¥</sup>, Sornette, D.<sup>¥</sup> (2025). Launching AoyuX: A 25-year pseudo-prospective earthquake forecasting experiment at the China Seismic Experimental Site. Journal of Geophysical Research: Solid Earth (submitted)
 
 - Sornette, D.<sup>#</sup>, Zaccagnino, D.<sup>#</sup>, <strong>Li, J.</strong> (2025). Fertility-tapered ETAS reveals significant earthquake productivity below catalog completeness. Journal of Geophysical Research: Solid Earth (under review)
 
