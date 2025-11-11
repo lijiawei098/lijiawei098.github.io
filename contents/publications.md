@@ -4,11 +4,11 @@
 
 #### 审稿中｜Under review
 
-- <strong>Li, J.</strong><sup>¥</sup><sup>#</sup>, Qingyuan Zhang<sup>¥</sup>, Sornette, D.<sup>¥</sup> (2025). Launching AoyuX: A 25-year pseudo-prospective earthquake forecasting experiment at the China Seismic Experimental Site. Journal of Geophysical Research: Solid Earth (under review) or <a href="https://doi.org/10.48550/arXiv.2510.14407" target="_blank">[Preprint]</a>
+- Sornette, D.<sup>#</sup>, Zaccagnino, D.<sup>#</sup>, <strong>Li, J.</strong> (2025). Fertility-tapered ETAS reveals significant earthquake productivity below catalog completeness. Journal of Geophysical Research: Solid Earth (in preparation) or <a href="http://arxiv.org/" target="_blank">[Preprint]</a>
 
-- Sornette, D.<sup>#</sup>, Zaccagnino, D.<sup>#</sup>, <strong>Li, J.</strong> (2025). Fertility-tapered ETAS reveals significant earthquake productivity below catalog completeness. Journal of Geophysical Research: Solid Earth (under review) or <a href="http://arxiv.org/" target="_blank">[Preprint]</a>
+- <strong>Li, J.</strong><sup>¥</sup><sup>#</sup>, Qingyuan Zhang<sup>¥</sup>, Sornette, D.<sup>¥</sup> (2025). Launching AoyuX: A 25-year pseudo-prospective earthquake forecasting experiment at the China Seismic Experimental Site. Science China Earth Sciences (under review) or <a href="https://doi.org/10.48550/arXiv.2510.14407" target="_blank">[Preprint]</a>
 
-- <strong>Li, J.</strong><sup>¥</sup><sup>#</sup>, Wang, X.<sup>¥</sup>,  Sornette, D. (2025). Unifying the Gutenberg-Richter law with probabilistic catalog completeness. Seismological Research Letters (under review) or <a href="http://arxiv.org/abs/2506.16849" target="_blank">[Preprint]</a> <a href="https://github.com/lijiawei098/GR-gReLU" target="_blank">[Code]</a> 
+- <strong>Li, J.</strong><sup>¥</sup><sup>#</sup>, Wang, X.<sup>¥</sup>,  Sornette, D. (2025). Unifying the Gutenberg-Richter law with probabilistic catalog completeness. Seismological Research Letters (major revision) or <a href="http://arxiv.org/abs/2506.16849" target="_blank">[Preprint]</a> <a href="https://github.com/lijiawei098/GR-gReLU" target="_blank">[Code]</a> 
 
 - <strong>Li, J.</strong><sup>#</sup>, Sornette, D.<sup>#</sup> (2025). Haicheng and Tangshan earthquakes as potential dragon-kings. Science China Earth Sciences (major revision) or <a href="https://doi.org/10.48550/arXiv.2504.21310" target="_blank">[Preprint]</a> <a href="https://github.com/lijiawei098/SeisDK_v1" target="_blank">[Code]</a> 
 
