@@ -1,8 +1,10 @@
+- <strong>November 15, 2025</strong>, we (Jiawei Li and Didier Sornette) attended the 2025 Final Acceptance Meeting of the NSFC Earthquake Joint Fund (国家自然科学基金地震联合基金), held at the Shaanxi Guesthouse in Xi’an, Shaanxi Province, and successfully completed the final evaluation of the project “Data-driven Earthquake Predictability Assessment: An Extract-Transform-Load Pipeline for Machine Learning Testing on Multi-Type Data” (PI: Didier Sornette; Project Period: 2021–2024).
+
 - <strong>November 7, 2025</strong>, we (Jiawei Li and Didier Sornette) visited the State Key Laboratory of Geohazard Prevention and Geoenvironment Protection (SKLGP) at Chengdu University of Technology, and met with Prof. Xuanmei Fan (Director) and her research team.
 
 - <strong>November 6, 2025</strong>, we (Jiawei Li and Didier Sornette) visited the Institute for Disaster Management and Reconstruction, Sichuan University – The Hong Kong Polytechnic University, and met with Prof. Baofeng Di (Dean) and colleagues.
 
-- <strong>November 3, 2025</strong>, we released the <strong>September issue of the AoyuX Monthly Earthquake Forecasting Report for the China Seismic Experimental Site (CSES)</strong>. <a href="/contents/AoyuX/1_Monthly/AoyuX地震预测报告_2025年9月_中文_高清.pdf" target="_blank">2025年9月</a> | <a href="/contents/AoyuX/1_Monthly/AoyuXReport_September2025_English_HighRes.pdf" target="_blank">September 2025</a> | <a href="https://pan.baidu.com/s/1FVis3EqrU3xnzTsGEoss_g?pwd=gau7" target="_blank">[Data]</a> </td>
+- <strong>November 3, 2025</strong>, we released the <strong>November issue of the AoyuX Monthly Earthquake Forecasting Report for the China Seismic Experimental Site (CSES)</strong>. <a href="/contents/AoyuX/1_Monthly/AoyuX地震预测报告_2025年11月_中文_高清.pdf" target="_blank">2025年11月</a> | <a href="/contents/AoyuX/1_Monthly/AoyuXReport_November2025_English_HighRes.pdf" target="_blank">November 2025</a> | <a href="https://pan.baidu.com/s/10J0WOcK17sWx3uEht5pMFQ?pwd=e99p" target="_blank">[Data]</a> </td>
 
 - <strong>October 16, 2025</strong>, our preprint titled <strong>“Launching AoyuX: A 25-year pseudo-prospective earthquake forecasting experiment at the China Seismic Experimental Site”</strong> (by Jiawei Li, Qingyuan Zhang, Didier Sornette) was released by <strong>arXiv</strong>. <a href="https://doi.org/10.48550/arXiv.2510.14407" target="_blank">[Preprint]</a>
 
