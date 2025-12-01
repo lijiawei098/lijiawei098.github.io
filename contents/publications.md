@@ -4,15 +4,13 @@
 
 #### 审稿中｜Under review
 
-- Sornette, D.<sup>#</sup>, Zaccagnino, D.<sup>#</sup>, <strong>Li, J.</strong> (2025). Fertility-tapered ETAS reveals significant earthquake productivity below catalog completeness. Journal of Geophysical Research: Solid Earth (in preparation) or <a href="http://arxiv.org/" target="_blank">[Preprint]</a>
+- Sornette, D.<sup>#</sup>, Zaccagnino, D.<sup>#</sup>, <strong>Li, J.</strong> (2025). Fertility-tapered ETAS reveals significant earthquake productivity below catalog completeness. (in preparation)
 
-- <strong>Li, J.</strong><sup>¥</sup><sup>#</sup>, Qingyuan Zhang<sup>¥</sup>, Sornette, D.<sup>¥</sup> (2025). Launching AoyuX: A 25-year pseudo-prospective earthquake forecasting experiment at the China Seismic Experimental Site. Science China Earth Sciences (under review) or <a href="https://doi.org/10.48550/arXiv.2510.14407" target="_blank">[Preprint]</a>
+- <strong>Li, J.</strong><sup>¥</sup><sup>#</sup>, Zhang, Q.<sup>¥</sup>, Sornette, D.<sup>¥</sup> (2025). Launching AoyuX: A 25-year pseudo-prospective earthquake forecasting experiment at the China Seismic Experimental Site. Natural Hazards and Earth System Sciences (under review) or <a href="https://doi.org/10.48550/arXiv.2510.14407" target="_blank">[Preprint]</a>
 
 - <strong>Li, J.</strong><sup>¥</sup><sup>#</sup>, Wang, X.<sup>¥</sup>,  Sornette, D. (2025). Unifying the Gutenberg-Richter law with probabilistic catalog completeness. Seismological Research Letters (major revision) or <a href="http://arxiv.org/abs/2506.16849" target="_blank">[Preprint]</a> <a href="https://github.com/lijiawei098/GR-gReLU" target="_blank">[Code]</a> 
 
 - <strong>Li, J.</strong><sup>#</sup>, Sornette, D.<sup>#</sup> (2025). Haicheng and Tangshan earthquakes as potential dragon-kings. Science China Earth Sciences (major revision) or <a href="https://doi.org/10.48550/arXiv.2504.21310" target="_blank">[Preprint]</a> <a href="https://github.com/lijiawei098/SeisDK_v1" target="_blank">[Code]</a> 
-
-- 蒋策, <strong>李佳威</strong><sup>#</sup>. (2025). 有限断层破裂参数的实时估计及应用——以2008年5月12日汶川 $M_{\mathrm{S}}\ 8.0$ 地震为例. 地球物理学报 (minor revision) or <a href="https://www.researchgate.net/publication/391920666_youxianduancengpoliecanshudeshishigujijiyingyong--yi2008nian5yue12riwenchuanMS_80dezhenweili" target="_blank">[Preprint]</a>
 
 
 ---
@@ -20,6 +18,8 @@
 #### 已接收/已出版｜Accepted/published
 
 2025
+
+- 蒋策, <strong>李佳威</strong><sup>#</sup>. (2025). 有限断层破裂参数的实时估计及应用——以2008年5月12日汶川 $M_{\mathrm{S}}\ 8.0$ 地震为例. 地球物理学报 (已接收), doi:10.6038/cjg2025T0293 or <a href="https://www.researchgate.net/publication/391920666_youxianduancengpoliecanshudeshishigujijiyingyong--yi2008nian5yue12riwenchuanMS_80dezhenweili" target="_blank">[Preprint]</a>
 
 - Wang, X., <strong>Li, J.</strong><sup>#</sup>, Feng, A., Sornette, D. (2025). Estimating magnitude completeness in earthquake catalogs: A comparative study of catalog-based methods. Journal of Geophysical Research: Solid Earth, 130(9), e2025JB031441. <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025JB031441" target="_blank">[Link]</a> <a href="/contents/Papers/2025_JGR_Mc_MS.pdf" target="_blank">[PDF]</a> <a href="/contents/Papers/2025_JGR_Mc_SI.pdf" target="_blank">[SI]</a> <a href="https://github.com/lijiawei098/GR-gReLU" target="_blank">[Code]</a> 
 
