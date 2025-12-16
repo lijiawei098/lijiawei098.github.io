@@ -1,3 +1,5 @@
+- <strong>December 15, 2025</strong>, Jiawei Li was promoted to <strong>Assistant Research Professor (Associate Researcher)</strong>. The evaluation committee consisted of Didier Sornette, Xiaofei Chen, Kejie Chen, Peng Han, and Ruijia Wang.
+
 - <strong>December 1, 2025</strong>, our paper titled <strong>“有限断层破裂参数的实时估计及应用——以2008年5月12日汶川 <strong>$M_{\mathrm{S}}\ 8.0$</strong> 地震为例”</strong> (by 蒋策 和 李佳威) was accepted by <strong>地球物理学报</strong>. <a href="https://www.researchgate.net/publication/391920666_youxianduancengpoliecanshudeshishigujijiyingyong--yi2008nian5yue12riwenchuanMS_80dezhenweili" target="_blank">[Preprint]</a>
 
 - <strong>November 15, 2025</strong>, we (Jiawei Li and Didier Sornette) attended the 2025 Final Acceptance Meeting of the NSFC Earthquake Joint Fund (国家自然科学基金地震联合基金), held at the Shaanxi Guesthouse in Xi’an, Shaanxi Province, and successfully completed the final evaluation of the project “Data-driven Earthquake Predictability Assessment: An Extract-Transform-Load Pipeline for Machine Learning Testing on Multi-Type Data” (PI: Didier Sornette; Project Period: 2021–2024).
