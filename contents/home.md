@@ -2,11 +2,11 @@
 <a href="https://www.researchgate.net/profile/Jiawei-Li-26" target="_blank">ResearchGate</a> | 
 <a href="https://orcid.org/0000-0003-1226-8162" target="_blank">ORCID</a>
 
-高级研究学者，博士\
+研究助理教授（副研究员），博士\
 南方科技大学风险分析预测与管控研究院（Risks-X）\
 广东·深圳
 
-Senior Researcher, PhD\
+Research Assistant Professor (Associate Researcher), PhD\
 Institute of Risk Analysis, Prediction and Management (Risks-X)\
 Southern University of Science and Technology (SUSTech)\
 Shenzhen, Guangdong, P.R. China
