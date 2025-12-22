@@ -1,7 +1,9 @@
 #### 工作经历｜Employment & Experience
 
-- 2023/03 - 至今: 南方科技大学风险分析预测与管控研究院, 高级研究学者.\
-  2023/03 - present: Senior Researcher, Institute of Risk Analysis, Prediction and Management (RisksX), Southern University of Science and Technology (SUSTech).
+- 2026/01 - 至今: 南方科技大学风险分析预测与管控研究院, 研究助理教授（副研究员）.\
+  2026/01 - present: Research Assistant Professor (Associate Researcher), Institute of Risk Analysis, Prediction and Management (RisksX), Southern University of Science and Technology (SUSTech).
+- 2023/03 - 2025/12: 南方科技大学风险分析预测与管控研究院, 高级研究学者（助理研究员）.\
+  2023/03 - 2025/12: Senior Researcher (Assistant Researcher), Institute of Risk Analysis, Prediction and Management (RisksX), Southern University of Science and Technology (SUSTech).
 - 2020/08 - 2023/02: 南方科技大学风险分析预测与管控研究院, 博士后研究员, 合作导师: Didier Sornette院士.\
   2020/08 - 2023/02: Postdoctoral Fellow, Institute of Risk Analysis, Prediction and Management (RisksX), Southern University of Science and Technology (SUSTech); Supervisor: Prof. Didier Sornette.
 - 2018/10 - 2019/10: 瑞士苏黎士联邦理工学院(ETH Zürich)瑞士地震服务中心, 联合培养博士研究生, 导师: Maren Böse博士.\
