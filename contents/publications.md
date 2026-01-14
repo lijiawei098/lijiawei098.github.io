@@ -17,9 +17,13 @@
 
 #### 已接收/已出版｜Accepted/published
 
-2025
+2026
 
 - 蒋策, <strong>李佳威</strong><sup>#</sup>. (2025). 有限断层破裂参数的实时估计及应用——以2008年5月12日汶川 $M_{\mathrm{S}}\ 8.0$ 地震为例. 地球物理学报 (已接收) or <a href="https://www.researchgate.net/publication/391920666_youxianduancengpoliecanshudeshishigujijiyingyong--yi2008nian5yue12riwenchuanMS_80dezhenweili" target="_blank">[Preprint]</a>
+
+- <strong>Li, J.</strong><sup>#</sup> (2026). Spatial distribution patterns of static complex slip on fault rupture surfaces of large earthquakes (in Chinese with English abstract). In Proceedings of the 11th Annual Meeting of Risk Analysis Council of China Association for Disaster Prevention (RAC 2024), Qiao, S., Cao, H., Liu, A., Chen, X., Li, T., Han, P. (eds) Atlantis Press, Dordrecht, The Netherlands, 59–67. <a href="https://www.atlantis-press.com/proceedings/rac-24/126021163" target="_blank">[Link]</a> <a href="https://www.atlantis-press.com/proceedings/rac-24" target="_blank">[Book link]</a> <a href="/contents/Papers/2026_Chapter_MS.pdf" target="_blank">[PDF]</a>
+
+2025
 
 - Wang, X., <strong>Li, J.</strong><sup>#</sup>, Feng, A., Sornette, D. (2025). Estimating magnitude completeness in earthquake catalogs: A comparative study of catalog-based methods. Journal of Geophysical Research: Solid Earth, 130(9), e2025JB031441. <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025JB031441" target="_blank">[Link]</a> <a href="/contents/Papers/2025_JGR_Mc_MS.pdf" target="_blank">[PDF]</a> <a href="/contents/Papers/2025_JGR_Mc_SI.pdf" target="_blank">[SI]</a> <a href="https://github.com/lijiawei098/GR-gReLU" target="_blank">[Code]</a> 
 
