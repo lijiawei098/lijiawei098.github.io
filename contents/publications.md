@@ -17,7 +17,7 @@
 
 2026
 
-- 蒋策, <strong>李佳威</strong><sup>#</sup>. (2025). 有限断层破裂参数的实时估计及应用——以2008年5月12日汶川 $M_{\mathrm{S}}\ 8.0$ 地震为例. 地球物理学报 (已接收) or <a href="https://www.researchgate.net/publication/391920666_youxianduancengpoliecanshudeshishigujijiyingyong--yi2008nian5yue12riwenchuanMS_80dezhenweili" target="_blank">[Preprint]</a>
+- 蒋策, <strong>李佳威</strong><sup>#</sup>. (2025). 有限断层破裂参数的实时估计及应用: 以2008年5月12日汶川 $M_{\mathrm{S}}\ 8.0$ 地震为例. 地球物理学报, 69(4), 1591-1602. <a href="http://www.geophy.cn/article/doi/10.6038/cjg2025T0293" target="_blank">[Link]</a> <a href="/contents/Papers/2026_CJG.pdf" target="_blank">[PDF]</a>
 
 - <strong>Li, J.</strong><sup>#</sup> (2026). Spatial distribution patterns of static complex slip on fault rupture surfaces of large earthquakes (in Chinese with English abstract). In Proceedings of the 11th Annual Meeting of Risk Analysis Council of China Association for Disaster Prevention (RAC 2024), Qiao, S., Cao, H., Liu, A., Chen, X., Li, T., Han, P. (eds) Atlantis Press, Dordrecht, The Netherlands, 59–67. <a href="https://www.atlantis-press.com/proceedings/rac-24/126021163" target="_blank">[Link]</a> <a href="https://www.atlantis-press.com/proceedings/rac-24" target="_blank">[Book link]</a> <a href="/contents/Papers/2026_Chapter_MS.pdf" target="_blank">[PDF]</a>
 
