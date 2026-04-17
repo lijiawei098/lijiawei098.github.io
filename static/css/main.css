@@ -110,3 +110,30 @@ section .main-body{
 }
 
 
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.team-card {
+    background: #ffffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 0.75rem;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.team-photo-placeholder {
+    height: 180px;
+    border: 2px dashed #b8b8b8;
+    border-radius: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    margin-bottom: 0.8rem;
+    background: #fafafa;
+}
