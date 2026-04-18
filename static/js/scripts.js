@@ -125,6 +125,30 @@ function sortEntriesByDateDescending(entries) {
     });
 }
 
+function buildArchivedMarkdownWithYearHeadings(entries) {
+    if (entries.length === 0) {
+        return '- _No archived activities yet._\n';
+    }
+
+    const groups = new Map();
+
+    entries.forEach((entry) => {
+        const date = parseNewsDate(entry);
+        const year = date ? String(date.getFullYear()) : 'Unknown';
+        if (!groups.has(year)) {
+            groups.set(year, []);
+        }
+        groups.get(year).push(entry);
+    });
+
+    const sections = [];
+    groups.forEach((yearEntries, year) => {
+        sections.push(`#### ${year}\n\n${yearEntries.join('\n\n')}`);
+    });
+
+    return `${sections.join('\n\n')}\n`;
+}
+
 async function renderNewsAndActivitiesWithAutoSplit() {
     const hasNewsContainer = Boolean(document.getElementById('news-md'));
     const hasActivitiesContainer = Boolean(document.getElementById('activities-md'));
@@ -157,7 +181,7 @@ async function renderNewsAndActivitiesWithAutoSplit() {
     }
 
     if (hasActivitiesContainer) {
-        const archivedMarkdown = archived.length > 0 ? `${archived.join('\n\n')}\n` : '- _No archived activities yet._\n';
+        const archivedMarkdown = buildArchivedMarkdownWithYearHeadings(archived);
         renderMarkdownToContainer(archivedMarkdown, 'activities-md');
     }
 }
