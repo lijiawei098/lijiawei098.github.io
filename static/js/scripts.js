@@ -143,7 +143,7 @@ function buildArchivedMarkdownWithYearHeadings(entries) {
 
     const sections = [];
     groups.forEach((yearEntries, year) => {
-        sections.push(`<h4 style="font-style: normal;">${year}</h4>\n\n${yearEntries.join('\n\n')}`);
+        sections.push(`<h4 style="font-family: 'Mulish', Arial, sans-serif; font-style: normal; font-weight: 700;">${year}</h4>\n\n${yearEntries.join('\n\n')}`);
     });
 
     return `${sections.join('\n\n')}\n`;
