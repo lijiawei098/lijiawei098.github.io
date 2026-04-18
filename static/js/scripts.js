@@ -1,6 +1,6 @@
 const contentDir = 'contents/';
 const configFile = 'config.yml';
-const sectionNames = ['home', 'publications', 'news', 'CV', 'AoyuX', 'Blog'];
+const sectionNames = ['home', 'publications', 'news', 'activities', 'CV', 'AoyuX', 'Blog'];
 
 async function fetchTextOrThrow(path) {
     const response = await fetch(path);
