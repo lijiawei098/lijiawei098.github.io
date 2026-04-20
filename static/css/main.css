@@ -209,7 +209,7 @@ section .main-body{
     font-size: 0.95rem;
 }
 
-.post-toc details {
+.post-toc .toc-branch {
     margin: 0.25rem 0;
 }
 
@@ -243,7 +243,7 @@ section .main-body{
     line-height: 1;
 }
 
-.post-toc details[open] > .toc-row .toc-toggle::before {
+.post-toc .toc-branch.is-open > .toc-row .toc-toggle::before {
     content: "▾";
 }
 
@@ -274,6 +274,10 @@ section .main-body{
     margin-left: 0.9rem;
     padding-left: 0.7rem;
     border-left: 1px dashed #d4d9e5;
+}
+
+.post-toc .toc-branch:not(.is-open) > .toc-children {
+    display: none;
 }
 
 .post-toc .toc-level-3 .toc-link {
@@ -367,6 +371,6 @@ section .main-body{
     line-height: 1.5;
 }
 
-.post-toc details > .toc-children:empty {
+.post-toc .toc-branch > .toc-children:empty {
     display: none;
 }

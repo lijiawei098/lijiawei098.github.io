@@ -172,23 +172,28 @@ function nodeContainsId(node, targetId) {
 function renderTocNode(node, activeUnitId, safeSlug) {
     const wrapper = document.createElement('div');
     wrapper.className = `toc-item toc-level-${node.depth}`;
+    const hasChildren = node.children.length > 0;
 
     const unitLinkForNode = `blog_post.html?post=${safeSlug}&unit=${node.id}`;
-
-    const details = document.createElement('details');
-    details.open = nodeContainsId(node, activeUnitId);
+    const branch = document.createElement('div');
+    branch.className = 'toc-branch';
+    if (hasChildren && nodeContainsId(node, activeUnitId)) {
+        branch.classList.add('is-open');
+    }
 
     const row = document.createElement('div');
     row.className = 'toc-row';
 
-    if (node.children.length > 0) {
+    if (hasChildren) {
         const toggleButton = document.createElement('button');
         toggleButton.type = 'button';
         toggleButton.className = 'toc-toggle';
         toggleButton.setAttribute('aria-label', '展开或收起目录');
+        toggleButton.setAttribute('aria-expanded', branch.classList.contains('is-open') ? 'true' : 'false');
         toggleButton.addEventListener('click', (event) => {
             event.preventDefault();
-            details.open = !details.open;
+            const opened = branch.classList.toggle('is-open');
+            toggleButton.setAttribute('aria-expanded', opened ? 'true' : 'false');
         });
         row.appendChild(toggleButton);
     } else {
@@ -206,16 +211,16 @@ function renderTocNode(node, activeUnitId, safeSlug) {
     rowLink.href = unitLinkForNode;
     rowLink.textContent = node.title;
     row.appendChild(rowLink);
-    details.appendChild(row);
+    branch.appendChild(row);
 
     const children = document.createElement('div');
     children.className = 'toc-children';
     node.children.forEach((child) => {
         children.appendChild(renderTocNode(child, activeUnitId, safeSlug));
     });
-    details.appendChild(children);
+    branch.appendChild(children);
 
-    wrapper.appendChild(details);
+    wrapper.appendChild(branch);
     return wrapper;
 }
 
