@@ -147,6 +147,21 @@ section .main-body{
     margin-top: 0.1rem;
 }
 
+.former-team-section {
+    margin-top: 2.5rem;
+    color: #666666;
+}
+
+.former-team-card {
+    background: #f0f0f0;
+    border-color: #d2d2d2;
+    color: #666666;
+}
+
+.former-team-card .team-info h4 {
+    color: #555555;
+}
+
 @media screen and (max-width: 768px) {
     .team-card {
         flex-direction: column;
