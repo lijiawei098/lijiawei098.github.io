@@ -10,6 +10,27 @@ function slugifyHeading(text) {
 
 const TOC_ENABLED_POSTS = new Set(['critical-phenomena-natural-science']);
 
+function protectMathDelimiters(markdown) {
+    const tokens = [];
+    const pushToken = (rawMath) => {
+        const token = `@@MATH_TOKEN_${tokens.length}@@`;
+        tokens.push({ token, rawMath });
+        return token;
+    };
+
+    let result = markdown.replace(/\\\[((?:.|\n)*?)\\\]/g, (_, expr) => pushToken(`\\[${expr}\\]`));
+    result = result.replace(/\\\((.+?)\\\)/g, (_, expr) => pushToken(`\\(${expr}\\)`));
+    return { result, tokens };
+}
+
+function restoreMathTokens(html, tokens) {
+    let restored = html;
+    tokens.forEach(({ token, rawMath }) => {
+        restored = restored.replaceAll(token, rawMath);
+    });
+    return restored;
+}
+
 function extractFootnoteDefinitions(markdown) {
     const definitionRegex = /^\[\^([^\]]+)\]:\s*(.+(?:\n(?: {2,}.+|\t.+)*)?)/gm;
     const definitions = new Map();
@@ -288,8 +309,10 @@ window.addEventListener('DOMContentLoaded', async () => {
             }
         }
 
-        const markdownWithFootnotes = enhanceFootnotes(markdownForRendering, globalFootnotes);
-        postContainer.innerHTML = marked.parse(markdownWithFootnotes);
+        const protectedMath = protectMathDelimiters(markdownForRendering);
+        const markdownWithFootnotes = enhanceFootnotes(protectedMath.result, globalFootnotes);
+        const parsedHtml = marked.parse(markdownWithFootnotes);
+        postContainer.innerHTML = restoreMathTokens(parsedHtml, protectedMath.tokens);
         typesetMathIfNeeded();
     } catch (error) {
         console.error(error);
