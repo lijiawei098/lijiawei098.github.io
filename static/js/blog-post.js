@@ -2,8 +2,9 @@ function slugifyHeading(text) {
     return text
         .toLowerCase()
         .trim()
-        .replace(/[^\w\u4e00-\u9fa5\s-]/g, '')
+        .replace(/[^\w\u4e00-\u9fa5\s.-]/g, '')
         .replace(/\s+/g, '-')
+        .replace(/[.]/g, '-')
         .replace(/-+/g, '-');
 }
 
@@ -26,8 +27,7 @@ function extractFootnoteDefinitions(markdown) {
 function enhanceFootnotes(markdown, sharedDefinitions = null) {
     const definitionRegex = /^\[\^([^\]]+)\]:\s*(.+(?:\n(?: {2,}.+|\t.+)*)?)/gm;
     const definitions = sharedDefinitions ?? extractFootnoteDefinitions(markdown);
-    let definitionsRemoved = markdown;
-    definitionsRemoved = definitionsRemoved.replace(definitionRegex, '').trimEnd();
+    let definitionsRemoved = markdown.replace(definitionRegex, '').trimEnd();
 
     const order = [];
     const refRegex = /\[\^([^\]]+)\]/g;
@@ -48,66 +48,195 @@ function enhanceFootnotes(markdown, sharedDefinitions = null) {
     }
 
     const items = order
-        .map((key, idx) => `<li id="fn-${key}">${marked.parseInline(definitions.get(key))} <a href="#fnref-${key}" class="footnote-backref" aria-label="Back to reference">↩︎</a></li>`)
+        .map((key) => `<li id="fn-${key}">${marked.parseInline(definitions.get(key))} <a href="#fnref-${key}" class="footnote-backref" aria-label="Back to reference">↩︎</a></li>`)
         .join('\n');
 
     return `${textWithSup}\n\n<section class="post-footnotes">\n<h2>脚注 | Footnotes</h2>\n<ol>\n${items}\n</ol>\n</section>\n`;
 }
 
-function buildSectionNavigation(markdown, safeSlug) {
+function parseHeadingStructure(markdown) {
+    const lines = markdown.split('\n');
+    const headings = [];
+    const firstDepthOneIndex = lines.findIndex(line => /^#\s+/.test(line));
+
+    lines.forEach((line, lineIndex) => {
+        const matched = line.match(/^(#{1,3})\s+(.+)$/);
+        if (!matched) {
+            return;
+        }
+
+        const depth = matched[1].length;
+        const title = matched[2].trim();
+        headings.push({
+            depth,
+            title,
+            lineIndex,
+            id: slugifyHeading(title) || `section-${headings.length + 1}`,
+            h1Id: null,
+            h2Id: null,
+            endLineIndex: lines.length,
+        });
+    });
+
+    for (let i = 0; i < headings.length; i += 1) {
+        const current = headings[i];
+        for (let j = i + 1; j < headings.length; j += 1) {
+            if (headings[j].depth <= current.depth) {
+                current.endLineIndex = headings[j].lineIndex;
+                break;
+            }
+        }
+    }
+
+    let currentH1 = null;
+    let currentH2 = null;
+    headings.forEach((heading) => {
+        if (heading.depth === 1) {
+            currentH1 = heading.id;
+            currentH2 = null;
+        } else if (heading.depth === 2) {
+            currentH2 = heading.id;
+        }
+
+        heading.h1Id = currentH1;
+        heading.h2Id = currentH2;
+    });
+
+    return {
+        lines,
+        headings,
+        prefaceLineEnd: firstDepthOneIndex === -1 ? lines.length : firstDepthOneIndex,
+    };
+}
+
+function buildTocTree(headings) {
+    const root = [];
+    const byId = new Map();
+
+    headings.filter(h => h.depth <= 3).forEach((heading) => {
+        const node = {
+            id: heading.id,
+            title: heading.title,
+            depth: heading.depth,
+            h1Id: heading.h1Id,
+            h2Id: heading.h2Id,
+            children: [],
+        };
+        byId.set(node.id, node);
+
+        if (node.depth === 1) {
+            root.push(node);
+            return;
+        }
+
+        const parentId = node.depth === 2 ? node.h1Id : node.h2Id;
+        const parent = byId.get(parentId);
+        if (parent) {
+            parent.children.push(node);
+        } else {
+            root.push(node);
+        }
+    });
+
+    return root;
+}
+
+function nodeContainsId(node, targetId) {
+    if (node.id === targetId) {
+        return true;
+    }
+    return node.children.some(child => nodeContainsId(child, targetId));
+}
+
+function renderTocNode(node, activeUnitId, safeSlug) {
+    const wrapper = document.createElement('div');
+    wrapper.className = `toc-item toc-level-${node.depth}`;
+
+    const hasChildren = node.children.length > 0;
+    if (!hasChildren && node.depth === 3) {
+        const link = document.createElement('a');
+        link.className = 'toc-link';
+        if (node.id === activeUnitId) {
+            link.classList.add('toc-link-active');
+        }
+        link.href = `blog_post.html?post=${safeSlug}&unit=${node.id}`;
+        link.textContent = node.title;
+        wrapper.appendChild(link);
+        return wrapper;
+    }
+
+    const details = document.createElement('details');
+    details.open = nodeContainsId(node, activeUnitId);
+
+    const summary = document.createElement('summary');
+    summary.className = 'toc-summary';
+    summary.textContent = node.title;
+    details.appendChild(summary);
+
+    const children = document.createElement('div');
+    children.className = 'toc-children';
+    node.children.forEach((child) => {
+        children.appendChild(renderTocNode(child, activeUnitId, safeSlug));
+    });
+    details.appendChild(children);
+
+    wrapper.appendChild(details);
+    return wrapper;
+}
+
+function buildSingleUnitMarkdown(markdown, safeSlug) {
     const tocContainer = document.getElementById('post-toc-content');
     if (!tocContainer) {
         return markdown;
     }
 
-    const sectionRegex = /^##\s+([一二三四五六七八九十]+、.+)$/gm;
-    const matches = Array.from(markdown.matchAll(sectionRegex));
-    if (matches.length === 0) {
-        tocContainer.innerHTML = '<p class="post-toc-placeholder">该文章暂无目录项。</p>';
+    const structure = parseHeadingStructure(markdown);
+    const tocTree = buildTocTree(structure.headings);
+    const thirdLevelSections = structure.headings.filter(h => h.depth === 3);
+    if (thirdLevelSections.length === 0) {
+        tocContainer.innerHTML = '<p class="post-toc-placeholder">该文章暂无可分页的三级目录。</p>';
         return markdown;
     }
 
-    const sections = matches.map((match, i) => {
-        const startIndex = match.index ?? 0;
-        const endIndex = i + 1 < matches.length ? (matches[i + 1].index ?? markdown.length) : markdown.length;
-        const title = match[1].trim();
-        return {
-            id: slugifyHeading(title) || `section-${i + 1}`,
-            title,
-            startIndex,
-            endIndex,
-        };
-    });
-
     const urlParams = new URLSearchParams(window.location.search);
-    const requested = urlParams.get('section');
-    const active = sections.find(section => section.id === requested) ?? sections[0];
+    const requestedUnit = urlParams.get('unit');
+    const active = thirdLevelSections.find(section => section.id === requestedUnit) ?? thirdLevelSections[0];
 
     tocContainer.innerHTML = '';
-    sections.forEach((section) => {
-        const item = document.createElement('div');
-        item.className = 'toc-item toc-level-2';
-        if (section.id === active.id) {
-            item.classList.add('toc-item-active');
-        }
-        const link = document.createElement('a');
-        link.className = 'toc-link';
-        link.href = `blog_post.html?post=${safeSlug}&section=${section.id}`;
-        link.textContent = section.title;
-        item.appendChild(link);
-        tocContainer.appendChild(item);
+    tocTree.forEach((node) => {
+        tocContainer.appendChild(renderTocNode(node, active.id, safeSlug));
     });
 
-    const prefixMarkdown = markdown.slice(0, sections[0].startIndex).trimEnd();
-    const selectedMarkdown = markdown.slice(active.startIndex, active.endIndex).trim();
-    return `${prefixMarkdown}\n\n${selectedMarkdown}\n`;
+    const h1 = structure.headings.find(h => h.id === active.h1Id);
+    const h2 = structure.headings.find(h => h.id === active.h2Id);
+    const selectedBlock = structure.lines.slice(active.lineIndex, active.endLineIndex).join('\n').trim();
+    const preface = structure.lines.slice(0, structure.prefaceLineEnd).join('\n').trim();
+
+    const parts = [];
+    if (preface) {
+        parts.push(preface);
+    }
+    if (h1) {
+        parts.push(`# ${h1.title}`);
+    }
+    if (h2) {
+        parts.push(`## ${h2.title}`);
+    }
+    parts.push(selectedBlock);
+
+    return `${parts.join('\n\n')}\n`;
 }
 
-function typesetMathIfNeeded() {
+function typesetMathIfNeeded(retryLeft = 12) {
     if (window.MathJax?.typesetPromise) {
         window.MathJax.typesetPromise().catch((error) => {
             console.error('MathJax typeset failed:', error);
         });
+        return;
+    }
+
+    if (retryLeft > 0) {
+        window.setTimeout(() => typesetMathIfNeeded(retryLeft - 1), 200);
     }
 }
 
@@ -142,7 +271,7 @@ window.addEventListener('DOMContentLoaded', async () => {
 
         let markdownForRendering = markdown;
         if (tocEnabled) {
-            markdownForRendering = buildSectionNavigation(markdown, safeSlug);
+            markdownForRendering = buildSingleUnitMarkdown(markdown, safeSlug);
             if (tocPanel) {
                 tocPanel.classList.remove('d-none');
             }
