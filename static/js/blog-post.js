@@ -178,20 +178,35 @@ function renderTocNode(node, activeUnitId, safeSlug) {
     const details = document.createElement('details');
     details.open = nodeContainsId(node, activeUnitId);
 
-    const summary = document.createElement('summary');
-    summary.className = 'toc-summary';
-    const summaryLink = document.createElement('a');
-    summaryLink.className = 'toc-link toc-summary-link';
-    if (node.id === activeUnitId) {
-        summaryLink.classList.add('toc-link-active');
+    const row = document.createElement('div');
+    row.className = 'toc-row';
+
+    if (node.children.length > 0) {
+        const toggleButton = document.createElement('button');
+        toggleButton.type = 'button';
+        toggleButton.className = 'toc-toggle';
+        toggleButton.setAttribute('aria-label', '展开或收起目录');
+        toggleButton.addEventListener('click', (event) => {
+            event.preventDefault();
+            details.open = !details.open;
+        });
+        row.appendChild(toggleButton);
+    } else {
+        const marker = document.createElement('span');
+        marker.className = 'toc-leaf-marker';
+        marker.textContent = '•';
+        row.appendChild(marker);
     }
-    summaryLink.href = unitLinkForNode;
-    summaryLink.textContent = node.title;
-    summaryLink.addEventListener('click', (event) => {
-        event.stopPropagation();
-    });
-    summary.appendChild(summaryLink);
-    details.appendChild(summary);
+
+    const rowLink = document.createElement('a');
+    rowLink.className = 'toc-link';
+    if (node.id === activeUnitId) {
+        rowLink.classList.add('toc-link-active');
+    }
+    rowLink.href = unitLinkForNode;
+    rowLink.textContent = node.title;
+    row.appendChild(rowLink);
+    details.appendChild(row);
 
     const children = document.createElement('div');
     children.className = 'toc-children';
@@ -230,24 +245,38 @@ function buildSingleUnitMarkdown(markdown, safeSlug) {
     if (active.depth === 1) {
         const firstH2 = structure.headings.find(h => h.depth === 2 && h.h1Id === active.id && h.lineIndex > active.lineIndex);
         const h1End = firstH2 ? firstH2.lineIndex : active.endLineIndex;
-        const h1Block = structure.lines.slice(active.lineIndex, h1End).join('\n').trim();
+        const directContent = structure.lines.slice(active.lineIndex + 1, h1End).join('\n').trim();
+        if (!directContent) {
+            return '';
+        }
+        const h1Block = [`# ${active.title}`, directContent].join('\n\n').trim();
         return `${h1Block}\n`;
     }
 
     if (active.depth === 2) {
+        const firstH3 = structure.headings.find(h => h.depth === 3 && h.h2Id === active.id && h.lineIndex > active.lineIndex);
+        const h2End = firstH3 ? firstH3.lineIndex : active.endLineIndex;
+        const selectedBlock = structure.lines.slice(active.lineIndex + 1, h2End).join('\n').trim();
+        if (!selectedBlock) {
+            return '';
+        }
+
         const h1 = structure.headings.find(h => h.id === active.h1Id);
-        const selectedBlock = structure.lines.slice(active.lineIndex, active.endLineIndex).join('\n').trim();
         const parts = [];
         if (h1) {
             parts.push(`# ${h1.title}`);
         }
+        parts.push(`## ${active.title}`);
         parts.push(selectedBlock);
         return `${parts.join('\n\n')}\n`;
     }
 
     const h1 = structure.headings.find(h => h.id === active.h1Id);
     const h2 = structure.headings.find(h => h.id === active.h2Id);
-    const selectedBlock = structure.lines.slice(active.lineIndex, active.endLineIndex).join('\n').trim();
+    const selectedBlock = structure.lines.slice(active.lineIndex + 1, active.endLineIndex).join('\n').trim();
+    if (!selectedBlock) {
+        return '';
+    }
 
     const parts = [];
     if (h1) {
