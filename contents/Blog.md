@@ -8,6 +8,9 @@ Welcome to the blog page. This section is designed for long-form articles, resea
 
 ### 文章列表 | Posts
 
+- **[（译作）自然科学中的临界现象：混沌、分形、自组织与无序的概念及方法（持续更新中）](blog_post.html?post=critical-phenomena-natural-science)**
+  本文围绕临界现象相关的核心概念、方法路径与跨学科联系持续整理与更新。
+
 - **[网站更新：博客系统上线（2026-04-17）](blog_post.html?post=2026-04-site-update)**  
   介绍博客页面结构、文章组织方式与后续扩展建议。
 
