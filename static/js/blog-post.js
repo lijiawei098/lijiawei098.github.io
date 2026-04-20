@@ -174,13 +174,15 @@ function renderTocNode(node, activeUnitId, safeSlug) {
     wrapper.className = `toc-item toc-level-${node.depth}`;
 
     const hasChildren = node.children.length > 0;
+    const unitLinkForNode = `blog_post.html?post=${safeSlug}&unit=${node.id}`;
+
     if (!hasChildren && node.depth === 3) {
         const link = document.createElement('a');
         link.className = 'toc-link';
         if (node.id === activeUnitId) {
             link.classList.add('toc-link-active');
         }
-        link.href = `blog_post.html?post=${safeSlug}&unit=${node.id}`;
+        link.href = unitLinkForNode;
         link.textContent = node.title;
         wrapper.appendChild(link);
         return wrapper;
@@ -191,7 +193,17 @@ function renderTocNode(node, activeUnitId, safeSlug) {
 
     const summary = document.createElement('summary');
     summary.className = 'toc-summary';
-    summary.textContent = node.title;
+    const summaryLink = document.createElement('a');
+    summaryLink.className = 'toc-link toc-summary-link';
+    if (node.id === activeUnitId) {
+        summaryLink.classList.add('toc-link-active');
+    }
+    summaryLink.href = unitLinkForNode;
+    summaryLink.textContent = node.title;
+    summaryLink.addEventListener('click', (event) => {
+        event.stopPropagation();
+    });
+    summary.appendChild(summaryLink);
     details.appendChild(summary);
 
     const children = document.createElement('div');
@@ -213,30 +225,33 @@ function buildSingleUnitMarkdown(markdown, safeSlug) {
 
     const structure = parseHeadingStructure(markdown);
     const tocTree = buildTocTree(structure.headings);
-    const thirdLevelSections = structure.headings.filter(h => h.depth === 3);
-    if (thirdLevelSections.length === 0) {
+    const selectableSections = structure.headings.filter(h => h.depth === 1 || h.depth === 3);
+    if (selectableSections.length === 0) {
         tocContainer.innerHTML = '<p class="post-toc-placeholder">该文章暂无可分页的三级目录。</p>';
         return markdown;
     }
 
     const urlParams = new URLSearchParams(window.location.search);
     const requestedUnit = urlParams.get('unit');
-    const active = thirdLevelSections.find(section => section.id === requestedUnit) ?? thirdLevelSections[0];
+    const active = selectableSections.find(section => section.id === requestedUnit) ?? selectableSections[0];
 
     tocContainer.innerHTML = '';
     tocTree.forEach((node) => {
         tocContainer.appendChild(renderTocNode(node, active.id, safeSlug));
     });
 
+    if (active.depth === 1) {
+        const firstH2 = structure.headings.find(h => h.depth === 2 && h.h1Id === active.id && h.lineIndex > active.lineIndex);
+        const h1End = firstH2 ? firstH2.lineIndex : active.endLineIndex;
+        const h1Block = structure.lines.slice(active.lineIndex, h1End).join('\n').trim();
+        return `${h1Block}\n`;
+    }
+
     const h1 = structure.headings.find(h => h.id === active.h1Id);
     const h2 = structure.headings.find(h => h.id === active.h2Id);
     const selectedBlock = structure.lines.slice(active.lineIndex, active.endLineIndex).join('\n').trim();
-    const preface = structure.lines.slice(0, structure.prefaceLineEnd).join('\n').trim();
 
     const parts = [];
-    if (preface) {
-        parts.push(preface);
-    }
     if (h1) {
         parts.push(`# ${h1.title}`);
     }
