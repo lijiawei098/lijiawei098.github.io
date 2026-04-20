@@ -213,21 +213,42 @@ section .main-body{
     margin: 0.25rem 0;
 }
 
-.post-toc .toc-summary {
-    list-style: none;
+.post-toc .toc-row {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    margin: 0.1rem 0;
+}
+
+.post-toc .toc-toggle,
+.post-toc .toc-leaf-marker {
+    width: 1rem;
+    flex: 0 0 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #5e6c86;
+}
+
+.post-toc .toc-toggle {
+    border: 0;
+    background: transparent;
+    padding: 0;
     cursor: pointer;
-    font-weight: 650;
-    color: #2a3550;
-    font-size: 0.95rem;
 }
 
-.post-toc .toc-summary::-webkit-details-marker {
-    display: none;
+.post-toc .toc-toggle::before {
+    content: "▸";
+    font-size: 0.85rem;
+    line-height: 1;
 }
 
-.post-toc .toc-summary-link {
-    color: inherit;
-    text-decoration: none;
+.post-toc details[open] > .toc-row .toc-toggle::before {
+    content: "▾";
+}
+
+.post-toc .toc-leaf-marker {
+    font-size: 0.7rem;
 }
 
 .post-toc .toc-link {
@@ -297,4 +318,55 @@ section .main-body{
         position: static;
         max-height: none;
     }
+}
+
+.post-hero-subtitle {
+    margin-top: 0.8rem;
+    margin-bottom: 0;
+}
+
+.post-hero-title-custom {
+    font-size: clamp(2rem, 4vw, 3.4rem);
+    font-weight: 800 !important;
+}
+
+.post-hero-subtitle-custom {
+    font-size: clamp(1rem, 2vw, 1.3rem);
+    font-weight: 400;
+}
+
+.post-quote-main {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem !important;
+    text-indent: 0 !important;
+}
+
+.post-quote-author {
+    text-align: right;
+    font-size: 1rem;
+    font-style: italic;
+    margin-bottom: 1.1rem;
+    text-indent: 0 !important;
+}
+
+.post-footnotes h2 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: inherit;
+    margin-bottom: 0.8rem;
+}
+
+.post-footnotes,
+.post-footnotes ol,
+.post-footnotes li,
+.post-footnotes p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.post-toc details > .toc-children:empty {
+    display: none;
 }

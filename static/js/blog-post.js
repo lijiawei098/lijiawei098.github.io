@@ -69,10 +69,10 @@ function enhanceFootnotes(markdown, sharedDefinitions = null) {
     }
 
     const items = order
-        .map((key) => `<li id="fn-${key}">${marked.parseInline(definitions.get(key))} <a href="#fnref-${key}" class="footnote-backref" aria-label="Back to reference">↩︎</a></li>`)
+        .map((key) => `<li id="fn-${key}">${marked.parseInline(definitions.get(key))}</li>`)
         .join('\n');
 
-    return `${textWithSup}\n\n<section class="post-footnotes">\n<h2>脚注 | Footnotes</h2>\n<ol>\n${items}\n</ol>\n</section>\n`;
+    return `${textWithSup}\n\n<section class="post-footnotes">\n<h2>脚注</h2>\n<ol>\n${items}\n</ol>\n</section>\n`;
 }
 
 function parseHeadingStructure(markdown) {
@@ -173,38 +173,40 @@ function renderTocNode(node, activeUnitId, safeSlug) {
     const wrapper = document.createElement('div');
     wrapper.className = `toc-item toc-level-${node.depth}`;
 
-    const hasChildren = node.children.length > 0;
     const unitLinkForNode = `blog_post.html?post=${safeSlug}&unit=${node.id}`;
-
-    if (!hasChildren && node.depth === 3) {
-        const link = document.createElement('a');
-        link.className = 'toc-link';
-        if (node.id === activeUnitId) {
-            link.classList.add('toc-link-active');
-        }
-        link.href = unitLinkForNode;
-        link.textContent = node.title;
-        wrapper.appendChild(link);
-        return wrapper;
-    }
 
     const details = document.createElement('details');
     details.open = nodeContainsId(node, activeUnitId);
 
-    const summary = document.createElement('summary');
-    summary.className = 'toc-summary';
-    const summaryLink = document.createElement('a');
-    summaryLink.className = 'toc-link toc-summary-link';
-    if (node.id === activeUnitId) {
-        summaryLink.classList.add('toc-link-active');
+    const row = document.createElement('div');
+    row.className = 'toc-row';
+
+    if (node.children.length > 0) {
+        const toggleButton = document.createElement('button');
+        toggleButton.type = 'button';
+        toggleButton.className = 'toc-toggle';
+        toggleButton.setAttribute('aria-label', '展开或收起目录');
+        toggleButton.addEventListener('click', (event) => {
+            event.preventDefault();
+            details.open = !details.open;
+        });
+        row.appendChild(toggleButton);
+    } else {
+        const marker = document.createElement('span');
+        marker.className = 'toc-leaf-marker';
+        marker.textContent = '•';
+        row.appendChild(marker);
     }
-    summaryLink.href = unitLinkForNode;
-    summaryLink.textContent = node.title;
-    summaryLink.addEventListener('click', (event) => {
-        event.stopPropagation();
-    });
-    summary.appendChild(summaryLink);
-    details.appendChild(summary);
+
+    const rowLink = document.createElement('a');
+    rowLink.className = 'toc-link';
+    if (node.id === activeUnitId) {
+        rowLink.classList.add('toc-link-active');
+    }
+    rowLink.href = unitLinkForNode;
+    rowLink.textContent = node.title;
+    row.appendChild(rowLink);
+    details.appendChild(row);
 
     const children = document.createElement('div');
     children.className = 'toc-children';
@@ -225,7 +227,7 @@ function buildSingleUnitMarkdown(markdown, safeSlug) {
 
     const structure = parseHeadingStructure(markdown);
     const tocTree = buildTocTree(structure.headings);
-    const selectableSections = structure.headings.filter(h => h.depth === 1 || h.depth === 3);
+    const selectableSections = structure.headings.filter(h => h.depth <= 3);
     if (selectableSections.length === 0) {
         tocContainer.innerHTML = '<p class="post-toc-placeholder">该文章暂无可分页的三级目录。</p>';
         return markdown;
@@ -243,13 +245,38 @@ function buildSingleUnitMarkdown(markdown, safeSlug) {
     if (active.depth === 1) {
         const firstH2 = structure.headings.find(h => h.depth === 2 && h.h1Id === active.id && h.lineIndex > active.lineIndex);
         const h1End = firstH2 ? firstH2.lineIndex : active.endLineIndex;
-        const h1Block = structure.lines.slice(active.lineIndex, h1End).join('\n').trim();
+        const directContent = structure.lines.slice(active.lineIndex + 1, h1End).join('\n').trim();
+        if (!directContent) {
+            return '';
+        }
+        const h1Block = [`# ${active.title}`, directContent].join('\n\n').trim();
         return `${h1Block}\n`;
+    }
+
+    if (active.depth === 2) {
+        const firstH3 = structure.headings.find(h => h.depth === 3 && h.h2Id === active.id && h.lineIndex > active.lineIndex);
+        const h2End = firstH3 ? firstH3.lineIndex : active.endLineIndex;
+        const selectedBlock = structure.lines.slice(active.lineIndex + 1, h2End).join('\n').trim();
+        if (!selectedBlock) {
+            return '';
+        }
+
+        const h1 = structure.headings.find(h => h.id === active.h1Id);
+        const parts = [];
+        if (h1) {
+            parts.push(`# ${h1.title}`);
+        }
+        parts.push(`## ${active.title}`);
+        parts.push(selectedBlock);
+        return `${parts.join('\n\n')}\n`;
     }
 
     const h1 = structure.headings.find(h => h.id === active.h1Id);
     const h2 = structure.headings.find(h => h.id === active.h2Id);
-    const selectedBlock = structure.lines.slice(active.lineIndex, active.endLineIndex).join('\n').trim();
+    const selectedBlock = structure.lines.slice(active.lineIndex + 1, active.endLineIndex).join('\n').trim();
+    if (!selectedBlock) {
+        return '';
+    }
 
     const parts = [];
     if (h1) {
@@ -261,6 +288,26 @@ function buildSingleUnitMarkdown(markdown, safeSlug) {
     parts.push(selectedBlock);
 
     return `${parts.join('\n\n')}\n`;
+}
+
+
+function applyPostHero(safeSlug) {
+    const heroTitle = document.getElementById('post-hero-title');
+    const heroSubtitle = document.getElementById('post-hero-subtitle');
+    if (!heroTitle || !heroSubtitle) {
+        return;
+    }
+
+    if (safeSlug === 'critical-phenomena-natural-science') {
+        heroTitle.textContent = '自然科学中的临界现象：';
+        heroTitle.classList.add('post-hero-title-custom');
+        heroSubtitle.textContent = '混沌、分形、自组织与无序的概念及方法';
+        heroSubtitle.classList.add('post-hero-subtitle-custom');
+        return;
+    }
+
+    heroTitle.textContent = 'Blog Post';
+    heroSubtitle.textContent = '';
 }
 
 function typesetMathIfNeeded(retryLeft = 12) {
@@ -293,6 +340,7 @@ window.addEventListener('DOMContentLoaded', async () => {
 
     const safeSlug = postSlug.replace(/[^a-zA-Z0-9-_]/g, '');
     const postPath = `contents/blog_posts/${safeSlug}.md`;
+    applyPostHero(safeSlug);
 
     try {
         const response = await fetch(postPath);
