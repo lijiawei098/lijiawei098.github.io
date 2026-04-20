@@ -259,6 +259,7 @@ function buildSingleUnitMarkdown(markdown, safeSlug) {
         parts.push(`## ${h2.title}`);
     }
     parts.push(selectedBlock);
+
     return `${parts.join('\n\n')}\n`;
 }
 
