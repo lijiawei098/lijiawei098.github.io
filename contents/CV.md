@@ -1,9 +1,9 @@
 #### 工作经历｜Employment & Experience
 
-- 2026/01 - 至今: 南方科技大学风险分析预测与管控研究院, 研究助理教授（副研究员）.\
-  2026/01 - present: Research Assistant Professor (Associate Researcher), Institute of Risk Analysis, Prediction and Management (RisksX), Southern University of Science and Technology (SUSTech).
-- 2023/03 - 2025/12: 南方科技大学风险分析预测与管控研究院, 高级研究学者（助理研究员）.\
-  2023/03 - 2025/12: Senior Researcher (Assistant Researcher), Institute of Risk Analysis, Prediction and Management (RisksX), Southern University of Science and Technology (SUSTech).
+- 2026/03 - 至今: 南方科技大学风险分析预测与管控研究院, 研究助理教授（副研究员）.\
+  2026/03 - present: Research Assistant Professor (Associate Researcher), Institute of Risk Analysis, Prediction and Management (RisksX), Southern University of Science and Technology (SUSTech).
+- 2023/03 - 2026/02: 南方科技大学风险分析预测与管控研究院, 高级研究学者（助理研究员）.\
+  2023/03 - 2026/02: Senior Researcher (Assistant Researcher), Institute of Risk Analysis, Prediction and Management (RisksX), Southern University of Science and Technology (SUSTech).
 - 2020/08 - 2023/02: 南方科技大学风险分析预测与管控研究院, 博士后研究员, 合作导师: Didier Sornette院士.\
   2020/08 - 2023/02: Postdoctoral Fellow, Institute of Risk Analysis, Prediction and Management (RisksX), Southern University of Science and Technology (SUSTech); Supervisor: Prof. Didier Sornette.
 - 2018/10 - 2019/10: 瑞士苏黎士联邦理工学院(ETH Zürich)瑞士地震服务中心, 联合培养博士研究生, 导师: Maren Böse博士.\
@@ -20,6 +20,7 @@
   2010/09 – 2014/07: B.Sc. in Geophysics, College of Geophysics, Chengdu University of Technology (CDUT); Supervisor: Prof. Chuntao Liang.
 
 #### 代表性论著｜Selected Publications
+- 蒋策, <strong>李佳威</strong><sup>#</sup>. (2026). 有限断层破裂参数的实时估计及应用: 以2008年5月12日汶川 $M_{\mathrm{S}}\ 8.0$ 地震为例. 地球物理学报, 69(4), 1591-1602. <a href="http://www.geophy.cn/article/doi/10.6038/cjg2025T0293" target="_blank">[Link]</a> <a href="/contents/Papers/2026_CJG.pdf" target="_blank">[PDF]</a>
 - Wang, X., <strong>Li, J.</strong><sup>#</sup>, Feng, A., Sornette, D. (2025). Estimating magnitude completeness in earthquake catalogs: A comparative study of catalog-based methods. Journal of Geophysical Research: Solid Earth, 130(9), e2025JB031441. <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025JB031441" target="_blank">[Link]</a> <a href="/contents/Papers/2025_JGR_Mc_MS.pdf" target="_blank">[PDF]</a> <a href="/contents/Papers/2025_JGR_Mc_SI.pdf" target="_blank">[SI]</a> <a href="https://github.com/lijiawei098/GR-gReLU" target="_blank">[Code]</a>
 - <strong>Li, J.</strong><sup>¥</sup><sup>#</sup>, Sornette, D.<sup>¥</sup><sup>#</sup>, Wu, Z., Zhuang, J., Jiang, C. (2025). Revisiting seismicity criticality: A new framework for bias correction of statistical seismology model calibrations. Journal of Geophysical Research: Solid Earth, 130(6), e2024JB029337. <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024JB029337" target="_blank">[Link]</a> <a href="/contents/Papers/2025_JGR_MS.pdf" target="_blank">[PDF]</a> <a href="/contents/Papers/2025_JGR_SI.pdf" target="_blank">[SI]</a> <a href="/contents/Papers/2025_JGR_Data.xlsx" target="_blank">[Data]</a> 
 - <strong>Li, J.</strong>, Sornette, D., & Feng, Y.<sup>#</sup> (2025). Estimating earthquake early warning effectiveness via blind zone sizes: A case study of the new seismic network in Chinese mainland. Natural Hazards, 121(6), 7783-7809. <a href="https://link.springer.com/article/10.1007/s11069-024-07104-z" target="_blank">[Link]</a> <a href="/contents/Papers/2025_NH_MS.pdf" target="_blank">[PDF]</a> <a href="/contents/Papers/2025_NH_SI.pdf" target="_blank">[SI]</a>
@@ -30,6 +31,7 @@
 - <strong>Li, J.</strong>, Wu, Z.<sup>#</sup>, Jiang, C., Zhou, S., Zhang, Y. (2020). Simple models of complex slip distribution? A case study of the 2011 $M_{\mathrm{W}}\ 7.1$ Van (eastern Turkey) earthquake. Pure and Applied Geophysics, 177(1), 387-395. <a href="https://doi.org/10.1007/s00024-019-02167-7" target="_blank">[Link]</a> <a href="/contents/Papers/2020_PAG_MS.pdf" target="_blank">[PDF]</a>
 
 #### 项目基金｜Grants
+- 深圳市出站博士后留（来）深科研资助, 项目批准号: 无, 总经费: 30万元, 执行年限: 2024年1月-2026年12月, 主持, 在研.
 - 广东省自然科学基金-面上项目《大地震断层破裂面上静态复杂位错分布的表征研究》, 项目批准号: 2024A1515011568, 总经费: 15万元, 执行年限: 2024年1月-2026年12月, 主持, 在研.
 - 中央级公益性科研院所基本科研业务专项-中国地震科学实验场2022年度项目《地震可预测性检验平台和中国短临预测能力评估》, 项目批准号: DQJB22Z01-10, 总经费: 25万元, 执行年限: 2022年3月-2023年2月, 子课题负责人(15万元), 已结题. 
 - 广东省基础与应用基础研究基金项目区域联合基金青年基金项目《有限震源近实时刻画地震破裂特征及其在川滇地区的应用研究》, 项目批准号: 2020A1515110844, 总经费: 10万元, 执行年限: 2020年10月-2023年9月, 主持, 已结题.
