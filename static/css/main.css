@@ -183,6 +183,10 @@ section .main-body{
     align-items: flex-start;
 }
 
+.blog-post-layout-single {
+    display: block;
+}
+
 .post-toc {
     position: sticky;
     top: 6.5rem;
@@ -245,6 +249,11 @@ section .main-body{
     text-decoration: underline;
 }
 
+.post-toc .toc-item-active > .toc-link {
+    font-weight: 700;
+    color: #1f49d8;
+}
+
 .post-toc .toc-children {
     margin-left: 0.9rem;
     padding-left: 0.7rem;
@@ -264,6 +273,17 @@ section .main-body{
 .footnote-backref {
     margin-left: 0.35rem;
     text-decoration: none;
+}
+
+#post-md img {
+    max-width: min(100%, 820px);
+    width: auto;
+    height: auto;
+    max-height: 420px;
+    object-fit: contain;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 0.4rem;
 }
 
 @media screen and (max-width: 991px) {

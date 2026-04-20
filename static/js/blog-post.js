@@ -7,126 +7,11 @@ function slugifyHeading(text) {
         .replace(/-+/g, '-');
 }
 
-function ensureHeadingIds(postContainer) {
-    const seen = new Map();
-    const headings = Array.from(postContainer.querySelectorAll('h1, h2, h3'));
+const TOC_ENABLED_POSTS = new Set(['critical-phenomena-natural-science']);
 
-    headings.forEach((heading) => {
-        const base = slugifyHeading(heading.textContent || 'section') || 'section';
-        const count = seen.get(base) || 0;
-        seen.set(base, count + 1);
-        heading.id = count === 0 ? base : `${base}-${count}`;
-    });
-
-    return headings;
-}
-
-function buildHeadingTree(headings) {
-    const root = [];
-    const stack = [];
-
-    headings.forEach((heading) => {
-        const node = {
-            id: heading.id,
-            title: heading.textContent || '',
-            level: Number(heading.tagName.slice(1)),
-            children: [],
-        };
-
-        while (stack.length > 0 && stack[stack.length - 1].level >= node.level) {
-            stack.pop();
-        }
-
-        if (stack.length === 0) {
-            root.push(node);
-        } else {
-            stack[stack.length - 1].children.push(node);
-        }
-        stack.push(node);
-    });
-
-    return root;
-}
-
-function renderTocNode(node) {
-    const item = document.createElement('div');
-    item.className = `toc-item toc-level-${node.level}`;
-
-    if (node.children.length === 0) {
-        const link = document.createElement('a');
-        link.className = 'toc-link';
-        link.href = `#${node.id}`;
-        link.textContent = node.title;
-        item.appendChild(link);
-        return item;
-    }
-
-    const details = document.createElement('details');
-    details.open = true;
-
-    const summary = document.createElement('summary');
-    const summaryInner = document.createElement('span');
-    summaryInner.className = 'toc-summary-inner';
-
-    const toggle = document.createElement('button');
-    toggle.type = 'button';
-    toggle.className = 'toc-toggle';
-    toggle.setAttribute('aria-label', '展开或折叠子目录');
-    toggle.textContent = '▾';
-
-    const link = document.createElement('a');
-    link.className = 'toc-link';
-    link.href = `#${node.id}`;
-    link.textContent = node.title;
-
-    details.addEventListener('toggle', () => {
-        toggle.textContent = details.open ? '▾' : '▸';
-    });
-
-    toggle.addEventListener('click', (event) => {
-        event.preventDefault();
-        event.stopPropagation();
-        details.open = !details.open;
-    });
-
-    summaryInner.append(toggle, link);
-    summary.appendChild(summaryInner);
-    details.appendChild(summary);
-
-    const children = document.createElement('div');
-    children.className = 'toc-children';
-    node.children.forEach((child) => {
-        children.appendChild(renderTocNode(child));
-    });
-    details.appendChild(children);
-
-    item.appendChild(details);
-    return item;
-}
-
-function renderToc(postContainer) {
-    const tocContainer = document.getElementById('post-toc-content');
-    if (!tocContainer) {
-        return;
-    }
-
-    const headings = ensureHeadingIds(postContainer);
-    if (headings.length === 0) {
-        tocContainer.innerHTML = '<p class="post-toc-placeholder">该文章暂无目录项。</p>';
-        return;
-    }
-
-    const tree = buildHeadingTree(headings);
-    tocContainer.innerHTML = '';
-    tree.forEach((node) => {
-        tocContainer.appendChild(renderTocNode(node));
-    });
-}
-
-function enhanceFootnotes(markdown) {
+function extractFootnoteDefinitions(markdown) {
     const definitionRegex = /^\[\^([^\]]+)\]:\s*(.+(?:\n(?: {2,}.+|\t.+)*)?)/gm;
     const definitions = new Map();
-    let definitionsRemoved = markdown;
     let match;
 
     while ((match = definitionRegex.exec(markdown)) !== null) {
@@ -135,6 +20,13 @@ function enhanceFootnotes(markdown) {
         definitions.set(key, value);
     }
 
+    return definitions;
+}
+
+function enhanceFootnotes(markdown, sharedDefinitions = null) {
+    const definitionRegex = /^\[\^([^\]]+)\]:\s*(.+(?:\n(?: {2,}.+|\t.+)*)?)/gm;
+    const definitions = sharedDefinitions ?? extractFootnoteDefinitions(markdown);
+    let definitionsRemoved = markdown;
     definitionsRemoved = definitionsRemoved.replace(definitionRegex, '').trimEnd();
 
     const order = [];
@@ -162,6 +54,55 @@ function enhanceFootnotes(markdown) {
     return `${textWithSup}\n\n<section class="post-footnotes">\n<h2>脚注 | Footnotes</h2>\n<ol>\n${items}\n</ol>\n</section>\n`;
 }
 
+function buildSectionNavigation(markdown, safeSlug) {
+    const tocContainer = document.getElementById('post-toc-content');
+    if (!tocContainer) {
+        return markdown;
+    }
+
+    const sectionRegex = /^##\s+([一二三四五六七八九十]+、.+)$/gm;
+    const matches = Array.from(markdown.matchAll(sectionRegex));
+    if (matches.length === 0) {
+        tocContainer.innerHTML = '<p class="post-toc-placeholder">该文章暂无目录项。</p>';
+        return markdown;
+    }
+
+    const sections = matches.map((match, i) => {
+        const startIndex = match.index ?? 0;
+        const endIndex = i + 1 < matches.length ? (matches[i + 1].index ?? markdown.length) : markdown.length;
+        const title = match[1].trim();
+        return {
+            id: slugifyHeading(title) || `section-${i + 1}`,
+            title,
+            startIndex,
+            endIndex,
+        };
+    });
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const requested = urlParams.get('section');
+    const active = sections.find(section => section.id === requested) ?? sections[0];
+
+    tocContainer.innerHTML = '';
+    sections.forEach((section) => {
+        const item = document.createElement('div');
+        item.className = 'toc-item toc-level-2';
+        if (section.id === active.id) {
+            item.classList.add('toc-item-active');
+        }
+        const link = document.createElement('a');
+        link.className = 'toc-link';
+        link.href = `blog_post.html?post=${safeSlug}&section=${section.id}`;
+        link.textContent = section.title;
+        item.appendChild(link);
+        tocContainer.appendChild(item);
+    });
+
+    const prefixMarkdown = markdown.slice(0, sections[0].startIndex).trimEnd();
+    const selectedMarkdown = markdown.slice(active.startIndex, active.endIndex).trim();
+    return `${prefixMarkdown}\n\n${selectedMarkdown}\n`;
+}
+
 function typesetMathIfNeeded() {
     if (window.MathJax?.typesetPromise) {
         window.MathJax.typesetPromise().catch((error) => {
@@ -172,6 +113,7 @@ function typesetMathIfNeeded() {
 
 window.addEventListener('DOMContentLoaded', async () => {
     const postContainer = document.getElementById('post-md');
+    const tocPanel = document.getElementById('post-toc');
     if (!postContainer) {
         return;
     }
@@ -195,9 +137,30 @@ window.addEventListener('DOMContentLoaded', async () => {
 
         marked.use({ mangle: false, headerIds: false });
         const markdown = await response.text();
-        const markdownWithFootnotes = enhanceFootnotes(markdown);
+        const globalFootnotes = extractFootnoteDefinitions(markdown);
+        const tocEnabled = TOC_ENABLED_POSTS.has(safeSlug);
+
+        let markdownForRendering = markdown;
+        if (tocEnabled) {
+            markdownForRendering = buildSectionNavigation(markdown, safeSlug);
+            if (tocPanel) {
+                tocPanel.classList.remove('d-none');
+            }
+        } else if (tocPanel) {
+            tocPanel.classList.add('d-none');
+            const layout = document.querySelector('.blog-post-layout');
+            const contentCol = postContainer.closest('.col-lg-9');
+            if (layout) {
+                layout.classList.add('blog-post-layout-single');
+            }
+            if (contentCol) {
+                contentCol.classList.remove('col-lg-9');
+                contentCol.classList.add('col-12');
+            }
+        }
+
+        const markdownWithFootnotes = enhanceFootnotes(markdownForRendering, globalFootnotes);
         postContainer.innerHTML = marked.parse(markdownWithFootnotes);
-        renderToc(postContainer);
         typesetMathIfNeeded();
     } catch (error) {
         console.error(error);
