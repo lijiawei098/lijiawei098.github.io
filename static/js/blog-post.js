@@ -247,52 +247,77 @@ function buildSingleUnitMarkdown(markdown, safeSlug) {
         tocContainer.appendChild(renderTocNode(node, active.id, safeSlug));
     });
 
+    const buildUnitHeadingPrefix = () => {
+        if (active.depth === 1) {
+            return `# ${active.title}`;
+        }
+
+        if (active.depth === 2) {
+            const h1 = structure.headings.find(h => h.id === active.h1Id);
+            const prefixParts = [];
+            if (h1) {
+                prefixParts.push(`# ${h1.title}`);
+            }
+            prefixParts.push(`## ${active.title}`);
+            return prefixParts.join('\n\n');
+        }
+
+        const h1 = structure.headings.find(h => h.id === active.h1Id);
+        const h2 = structure.headings.find(h => h.id === active.h2Id);
+        const prefixParts = [];
+        if (h1) {
+            prefixParts.push(`# ${h1.title}`);
+        }
+        if (h2) {
+            prefixParts.push(`## ${h2.title}`);
+        }
+        prefixParts.push(`### ${active.title}`);
+        return prefixParts.join('\n\n');
+    };
+
+    const withDivider = (headingPrefix, bodyContent) => {
+        if (bodyContent) {
+            return `${headingPrefix}\n\n---\n\n${bodyContent}\n`;
+        }
+        return `${headingPrefix}\n\n---\n`;
+    };
+
     if (active.depth === 1) {
         const firstH2 = structure.headings.find(h => h.depth === 2 && h.h1Id === active.id && h.lineIndex > active.lineIndex);
         const h1End = firstH2 ? firstH2.lineIndex : active.endLineIndex;
         const directContent = structure.lines.slice(active.lineIndex + 1, h1End).join('\n').trim();
-        if (!directContent) {
-            return '';
-        }
-        const h1Block = [`# ${active.title}`, directContent].join('\n\n').trim();
-        return `${h1Block}\n`;
+        return withDivider(buildUnitHeadingPrefix(), directContent);
     }
 
     if (active.depth === 2) {
         const firstH3 = structure.headings.find(h => h.depth === 3 && h.h2Id === active.id && h.lineIndex > active.lineIndex);
         const h2End = firstH3 ? firstH3.lineIndex : active.endLineIndex;
         const selectedBlock = structure.lines.slice(active.lineIndex + 1, h2End).join('\n').trim();
-        if (!selectedBlock) {
-            return '';
-        }
-
-        const h1 = structure.headings.find(h => h.id === active.h1Id);
-        const parts = [];
-        if (h1) {
-            parts.push(`# ${h1.title}`);
-        }
-        parts.push(`## ${active.title}`);
-        parts.push(selectedBlock);
-        return `${parts.join('\n\n')}\n`;
+        return withDivider(buildUnitHeadingPrefix(), selectedBlock);
     }
 
-    const h1 = structure.headings.find(h => h.id === active.h1Id);
-    const h2 = structure.headings.find(h => h.id === active.h2Id);
     const selectedBlock = structure.lines.slice(active.lineIndex + 1, active.endLineIndex).join('\n').trim();
-    if (!selectedBlock) {
-        return '';
+    return withDivider(buildUnitHeadingPrefix(), selectedBlock);
+}
+
+
+function applyPostHero(safeSlug) {
+    const heroTitle = document.getElementById('post-hero-title');
+    const heroSubtitle = document.getElementById('post-hero-subtitle');
+    if (!heroTitle || !heroSubtitle) {
+        return;
     }
 
-    const parts = [];
-    if (h1) {
-        parts.push(`# ${h1.title}`);
+    if (safeSlug === 'critical-phenomena-natural-science') {
+        heroTitle.textContent = '自然科学中的临界现象：';
+        heroTitle.classList.add('post-hero-title-custom');
+        heroSubtitle.textContent = '混沌、分形、自组织与无序的概念及方法';
+        heroSubtitle.classList.add('post-hero-subtitle-custom');
+        return;
     }
-    if (h2) {
-        parts.push(`## ${h2.title}`);
-    }
-    parts.push(selectedBlock);
 
-    return `${parts.join('\n\n')}\n`;
+    heroTitle.textContent = 'Blog Post';
+    heroSubtitle.textContent = '';
 }
 
 
