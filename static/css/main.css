@@ -152,6 +152,11 @@ section .main-body{
     color: #666666;
 }
 
+.former-team-section h2,
+.former-team-section .lead {
+    color: #666666 !important;
+}
+
 .former-team-card {
     background: #f0f0f0;
     border-color: #d2d2d2;
