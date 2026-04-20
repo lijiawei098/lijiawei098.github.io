@@ -69,10 +69,10 @@ function enhanceFootnotes(markdown, sharedDefinitions = null) {
     }
 
     const items = order
-        .map((key) => `<li id="fn-${key}">${marked.parseInline(definitions.get(key))} <a href="#fnref-${key}" class="footnote-backref" aria-label="Back to reference">↩︎</a></li>`)
+        .map((key) => `<li id="fn-${key}">${marked.parseInline(definitions.get(key))}</li>`)
         .join('\n');
 
-    return `${textWithSup}\n\n<section class="post-footnotes">\n<h2>脚注 | Footnotes</h2>\n<ol>\n${items}\n</ol>\n</section>\n`;
+    return `${textWithSup}\n\n<section class="post-footnotes">\n<h2>脚注</h2>\n<ol>\n${items}\n</ol>\n</section>\n`;
 }
 
 function parseHeadingStructure(markdown) {
@@ -173,20 +173,7 @@ function renderTocNode(node, activeUnitId, safeSlug) {
     const wrapper = document.createElement('div');
     wrapper.className = `toc-item toc-level-${node.depth}`;
 
-    const hasChildren = node.children.length > 0;
     const unitLinkForNode = `blog_post.html?post=${safeSlug}&unit=${node.id}`;
-
-    if (!hasChildren && node.depth === 3) {
-        const link = document.createElement('a');
-        link.className = 'toc-link';
-        if (node.id === activeUnitId) {
-            link.classList.add('toc-link-active');
-        }
-        link.href = unitLinkForNode;
-        link.textContent = node.title;
-        wrapper.appendChild(link);
-        return wrapper;
-    }
 
     const details = document.createElement('details');
     details.open = nodeContainsId(node, activeUnitId);
@@ -225,7 +212,7 @@ function buildSingleUnitMarkdown(markdown, safeSlug) {
 
     const structure = parseHeadingStructure(markdown);
     const tocTree = buildTocTree(structure.headings);
-    const selectableSections = structure.headings.filter(h => h.depth === 1 || h.depth === 3);
+    const selectableSections = structure.headings.filter(h => h.depth <= 3);
     if (selectableSections.length === 0) {
         tocContainer.innerHTML = '<p class="post-toc-placeholder">该文章暂无可分页的三级目录。</p>';
         return markdown;
@@ -247,6 +234,17 @@ function buildSingleUnitMarkdown(markdown, safeSlug) {
         return `${h1Block}\n`;
     }
 
+    if (active.depth === 2) {
+        const h1 = structure.headings.find(h => h.id === active.h1Id);
+        const selectedBlock = structure.lines.slice(active.lineIndex, active.endLineIndex).join('\n').trim();
+        const parts = [];
+        if (h1) {
+            parts.push(`# ${h1.title}`);
+        }
+        parts.push(selectedBlock);
+        return `${parts.join('\n\n')}\n`;
+    }
+
     const h1 = structure.headings.find(h => h.id === active.h1Id);
     const h2 = structure.headings.find(h => h.id === active.h2Id);
     const selectedBlock = structure.lines.slice(active.lineIndex, active.endLineIndex).join('\n').trim();
@@ -261,6 +259,26 @@ function buildSingleUnitMarkdown(markdown, safeSlug) {
     parts.push(selectedBlock);
 
     return `${parts.join('\n\n')}\n`;
+}
+
+
+function applyPostHero(safeSlug) {
+    const heroTitle = document.getElementById('post-hero-title');
+    const heroSubtitle = document.getElementById('post-hero-subtitle');
+    if (!heroTitle || !heroSubtitle) {
+        return;
+    }
+
+    if (safeSlug === 'critical-phenomena-natural-science') {
+        heroTitle.textContent = '自然科学中的临界现象：';
+        heroTitle.classList.add('post-hero-title-custom');
+        heroSubtitle.textContent = '混沌、分形、自组织与无序的概念及方法';
+        heroSubtitle.classList.add('post-hero-subtitle-custom');
+        return;
+    }
+
+    heroTitle.textContent = 'Blog Post';
+    heroSubtitle.textContent = '';
 }
 
 function typesetMathIfNeeded(retryLeft = 12) {
@@ -293,6 +311,7 @@ window.addEventListener('DOMContentLoaded', async () => {
 
     const safeSlug = postSlug.replace(/[^a-zA-Z0-9-_]/g, '');
     const postPath = `contents/blog_posts/${safeSlug}.md`;
+    applyPostHero(safeSlug);
 
     try {
         const response = await fetch(postPath);
