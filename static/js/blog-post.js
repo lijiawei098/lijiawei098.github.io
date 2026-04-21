@@ -353,6 +353,20 @@ function typesetMathIfNeeded(retryLeft = 12) {
     }
 }
 
+function normalizeFigureCaptions(container) {
+    if (!container) {
+        return;
+    }
+
+    const paragraphs = container.querySelectorAll('p');
+    paragraphs.forEach((paragraph) => {
+        const captionText = paragraph.textContent.trim();
+        if (/^(图|Figure)\s*\d+([.-]\d+)*[.。:：]/.test(captionText)) {
+            paragraph.classList.add('post-figure-caption');
+        }
+    });
+}
+
 window.addEventListener('DOMContentLoaded', async () => {
     const postContainer = document.getElementById('post-md');
     const tocPanel = document.getElementById('post-toc');
@@ -406,6 +420,7 @@ window.addEventListener('DOMContentLoaded', async () => {
         const markdownWithFootnotes = enhanceFootnotes(protectedMath.result, globalFootnotes);
         const parsedHtml = marked.parse(markdownWithFootnotes);
         postContainer.innerHTML = restoreMathTokens(parsedHtml, protectedMath.tokens);
+        normalizeFigureCaptions(postContainer);
         typesetMathIfNeeded();
     } catch (error) {
         console.error(error);
