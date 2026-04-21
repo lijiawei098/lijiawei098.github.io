@@ -320,6 +320,26 @@ function applyPostHero(safeSlug) {
     heroSubtitle.textContent = '';
 }
 
+
+function applyPostHero(safeSlug) {
+    const heroTitle = document.getElementById('post-hero-title');
+    const heroSubtitle = document.getElementById('post-hero-subtitle');
+    if (!heroTitle || !heroSubtitle) {
+        return;
+    }
+
+    if (safeSlug === 'critical-phenomena-natural-science') {
+        heroTitle.textContent = '自然科学中的临界现象：';
+        heroTitle.classList.add('post-hero-title-custom');
+        heroSubtitle.textContent = '混沌、分形、自组织与无序的概念及方法';
+        heroSubtitle.classList.add('post-hero-subtitle-custom');
+        return;
+    }
+
+    heroTitle.textContent = 'Blog Post';
+    heroSubtitle.textContent = '';
+}
+
 function typesetMathIfNeeded(retryLeft = 12) {
     if (window.MathJax?.typesetPromise) {
         window.MathJax.typesetPromise().catch((error) => {
