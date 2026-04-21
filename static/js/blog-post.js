@@ -69,10 +69,10 @@ function enhanceFootnotes(markdown, sharedDefinitions = null) {
     }
 
     const items = order
-        .map((key) => `<li id="fn-${key}">${marked.parseInline(definitions.get(key))} <a href="#fnref-${key}" class="footnote-backref" aria-label="Back to reference">↩︎</a></li>`)
+        .map((key) => `<li id="fn-${key}">${marked.parseInline(definitions.get(key))}</li>`)
         .join('\n');
 
-    return `${textWithSup}\n\n<section class="post-footnotes">\n<h2>脚注 | Footnotes</h2>\n<ol>\n${items}\n</ol>\n</section>\n`;
+    return `${textWithSup}\n\n<section class="post-footnotes">\n<h2>脚注</h2>\n<ol>\n${items}\n</ol>\n</section>\n`;
 }
 
 function parseHeadingStructure(markdown) {
@@ -172,48 +172,55 @@ function nodeContainsId(node, targetId) {
 function renderTocNode(node, activeUnitId, safeSlug) {
     const wrapper = document.createElement('div');
     wrapper.className = `toc-item toc-level-${node.depth}`;
-
     const hasChildren = node.children.length > 0;
+
     const unitLinkForNode = `blog_post.html?post=${safeSlug}&unit=${node.id}`;
-
-    if (!hasChildren && node.depth === 3) {
-        const link = document.createElement('a');
-        link.className = 'toc-link';
-        if (node.id === activeUnitId) {
-            link.classList.add('toc-link-active');
-        }
-        link.href = unitLinkForNode;
-        link.textContent = node.title;
-        wrapper.appendChild(link);
-        return wrapper;
+    const branch = document.createElement('div');
+    branch.className = 'toc-branch';
+    if (hasChildren && nodeContainsId(node, activeUnitId)) {
+        branch.classList.add('is-open');
     }
 
-    const details = document.createElement('details');
-    details.open = nodeContainsId(node, activeUnitId);
+    const row = document.createElement('div');
+    row.className = 'toc-row';
 
-    const summary = document.createElement('summary');
-    summary.className = 'toc-summary';
-    const summaryLink = document.createElement('a');
-    summaryLink.className = 'toc-link toc-summary-link';
+    if (hasChildren) {
+        const toggleButton = document.createElement('button');
+        toggleButton.type = 'button';
+        toggleButton.className = 'toc-toggle';
+        toggleButton.setAttribute('aria-label', '展开或收起目录');
+        toggleButton.setAttribute('aria-expanded', branch.classList.contains('is-open') ? 'true' : 'false');
+        toggleButton.addEventListener('click', (event) => {
+            event.preventDefault();
+            const opened = branch.classList.toggle('is-open');
+            toggleButton.setAttribute('aria-expanded', opened ? 'true' : 'false');
+        });
+        row.appendChild(toggleButton);
+    } else {
+        const marker = document.createElement('span');
+        marker.className = 'toc-leaf-marker';
+        marker.textContent = '•';
+        row.appendChild(marker);
+    }
+
+    const rowLink = document.createElement('a');
+    rowLink.className = 'toc-link';
     if (node.id === activeUnitId) {
-        summaryLink.classList.add('toc-link-active');
+        rowLink.classList.add('toc-link-active');
     }
-    summaryLink.href = unitLinkForNode;
-    summaryLink.textContent = node.title;
-    summaryLink.addEventListener('click', (event) => {
-        event.stopPropagation();
-    });
-    summary.appendChild(summaryLink);
-    details.appendChild(summary);
+    rowLink.href = unitLinkForNode;
+    rowLink.textContent = node.title;
+    row.appendChild(rowLink);
+    branch.appendChild(row);
 
     const children = document.createElement('div');
     children.className = 'toc-children';
     node.children.forEach((child) => {
         children.appendChild(renderTocNode(child, activeUnitId, safeSlug));
     });
-    details.appendChild(children);
+    branch.appendChild(children);
 
-    wrapper.appendChild(details);
+    wrapper.appendChild(branch);
     return wrapper;
 }
 
@@ -225,7 +232,7 @@ function buildSingleUnitMarkdown(markdown, safeSlug) {
 
     const structure = parseHeadingStructure(markdown);
     const tocTree = buildTocTree(structure.headings);
-    const selectableSections = structure.headings.filter(h => h.depth === 1 || h.depth === 3);
+    const selectableSections = structure.headings.filter(h => h.depth <= 3);
     if (selectableSections.length === 0) {
         tocContainer.innerHTML = '<p class="post-toc-placeholder">该文章暂无可分页的三级目录。</p>';
         return markdown;
@@ -240,27 +247,77 @@ function buildSingleUnitMarkdown(markdown, safeSlug) {
         tocContainer.appendChild(renderTocNode(node, active.id, safeSlug));
     });
 
+    const buildUnitHeadingPrefix = () => {
+        if (active.depth === 1) {
+            return `# ${active.title}`;
+        }
+
+        if (active.depth === 2) {
+            const h1 = structure.headings.find(h => h.id === active.h1Id);
+            const prefixParts = [];
+            if (h1) {
+                prefixParts.push(`# ${h1.title}`);
+            }
+            prefixParts.push(`## ${active.title}`);
+            return prefixParts.join('\n\n');
+        }
+
+        const h1 = structure.headings.find(h => h.id === active.h1Id);
+        const h2 = structure.headings.find(h => h.id === active.h2Id);
+        const prefixParts = [];
+        if (h1) {
+            prefixParts.push(`# ${h1.title}`);
+        }
+        if (h2) {
+            prefixParts.push(`## ${h2.title}`);
+        }
+        prefixParts.push(`### ${active.title}`);
+        return prefixParts.join('\n\n');
+    };
+
+    const withDivider = (headingPrefix, bodyContent) => {
+        if (bodyContent) {
+            return `${headingPrefix}\n\n---\n\n${bodyContent}\n`;
+        }
+        return `${headingPrefix}\n\n---\n`;
+    };
+
     if (active.depth === 1) {
         const firstH2 = structure.headings.find(h => h.depth === 2 && h.h1Id === active.id && h.lineIndex > active.lineIndex);
         const h1End = firstH2 ? firstH2.lineIndex : active.endLineIndex;
-        const h1Block = structure.lines.slice(active.lineIndex, h1End).join('\n').trim();
-        return `${h1Block}\n`;
+        const directContent = structure.lines.slice(active.lineIndex + 1, h1End).join('\n').trim();
+        return withDivider(buildUnitHeadingPrefix(), directContent);
     }
 
-    const h1 = structure.headings.find(h => h.id === active.h1Id);
-    const h2 = structure.headings.find(h => h.id === active.h2Id);
-    const selectedBlock = structure.lines.slice(active.lineIndex, active.endLineIndex).join('\n').trim();
-
-    const parts = [];
-    if (h1) {
-        parts.push(`# ${h1.title}`);
+    if (active.depth === 2) {
+        const firstH3 = structure.headings.find(h => h.depth === 3 && h.h2Id === active.id && h.lineIndex > active.lineIndex);
+        const h2End = firstH3 ? firstH3.lineIndex : active.endLineIndex;
+        const selectedBlock = structure.lines.slice(active.lineIndex + 1, h2End).join('\n').trim();
+        return withDivider(buildUnitHeadingPrefix(), selectedBlock);
     }
-    if (h2) {
-        parts.push(`## ${h2.title}`);
-    }
-    parts.push(selectedBlock);
 
-    return `${parts.join('\n\n')}\n`;
+    const selectedBlock = structure.lines.slice(active.lineIndex + 1, active.endLineIndex).join('\n').trim();
+    return withDivider(buildUnitHeadingPrefix(), selectedBlock);
+}
+
+
+function applyPostHero(safeSlug) {
+    const heroTitle = document.getElementById('post-hero-title');
+    const heroSubtitle = document.getElementById('post-hero-subtitle');
+    if (!heroTitle || !heroSubtitle) {
+        return;
+    }
+
+    if (safeSlug === 'critical-phenomena-natural-science') {
+        heroTitle.textContent = '自然科学中的临界现象：';
+        heroTitle.classList.add('post-hero-title-custom');
+        heroSubtitle.textContent = '混沌、分形、自组织与无序的概念及方法';
+        heroSubtitle.classList.add('post-hero-subtitle-custom');
+        return;
+    }
+
+    heroTitle.textContent = 'Blog Post';
+    heroSubtitle.textContent = '';
 }
 
 function typesetMathIfNeeded(retryLeft = 12) {
@@ -274,6 +331,20 @@ function typesetMathIfNeeded(retryLeft = 12) {
     if (retryLeft > 0) {
         window.setTimeout(() => typesetMathIfNeeded(retryLeft - 1), 200);
     }
+}
+
+function normalizeFigureCaptions(container) {
+    if (!container) {
+        return;
+    }
+
+    const paragraphs = container.querySelectorAll('p');
+    paragraphs.forEach((paragraph) => {
+        const captionText = paragraph.textContent.trim();
+        if (/^(图|Figure)\s*\d+([.-]\d+)*[.。:：]/.test(captionText)) {
+            paragraph.classList.add('post-figure-caption');
+        }
+    });
 }
 
 window.addEventListener('DOMContentLoaded', async () => {
@@ -293,6 +364,7 @@ window.addEventListener('DOMContentLoaded', async () => {
 
     const safeSlug = postSlug.replace(/[^a-zA-Z0-9-_]/g, '');
     const postPath = `contents/blog_posts/${safeSlug}.md`;
+    applyPostHero(safeSlug);
 
     try {
         const response = await fetch(postPath);
@@ -328,6 +400,7 @@ window.addEventListener('DOMContentLoaded', async () => {
         const markdownWithFootnotes = enhanceFootnotes(protectedMath.result, globalFootnotes);
         const parsedHtml = marked.parse(markdownWithFootnotes);
         postContainer.innerHTML = restoreMathTokens(parsedHtml, protectedMath.tokens);
+        normalizeFigureCaptions(postContainer);
         typesetMathIfNeeded();
     } catch (error) {
         console.error(error);
