@@ -1,3 +1,7 @@
+- <strong>May 12, 2026</strong>, I visited Prof. Shunping Pei at Yunnan University.
+
+- <strong>May 10, 2026</strong>, invited by Associate Prof. Yongwen Zhang at Kunming University of Science and Technology, Associate Prof. Ying Zhang (USTB) and I delivered two talks titled <strong>“再访古登堡-里克特定律”</strong> and <strong>“AI与地震物理融合：引领地震预测新范式”</strong>, respectively. <a href="/contents/News/Poster_lijw.jpg" target="_blank">[Poster]</a> <a href="/contents/News/Poster_zhangy.jpg" target="_blank">[Poster]</a>
+
 - <strong>April 9, 2026</strong>, our paper titled <strong>“Unifying the Gutenberg-Richter law with probabilistic catalog completeness”</strong> (by Jiawei Li, Xinyi Wang, and Didier Sornette) was accepted by <strong>Seismological Research Letters</strong>. <a href="http://arxiv.org/abs/2506.16849" target="_blank">[Preprint]</a> <a href="https://github.com/lijiawei098/GR-gReLU" target="_blank">[Code]</a>
 
 - <strong>April 1, 2026</strong>, our paper titled <strong>“有限断层破裂参数的实时估计及应用: 以2008年5月12日汶川 <strong>$M_{\mathrm{S}}\ 8.0$</strong> 地震为例”</strong> (by 蒋策 和 李佳威) was published by <strong>地球物理学报</strong>. <a href="http://www.geophy.cn/article/doi/10.6038/cjg2025T0293" target="_blank">[Link]</a> <a href="/contents/Papers/2026_CJG.pdf" target="_blank">[PDF]</a>
