@@ -8,7 +8,7 @@ function slugifyHeading(text) {
         .replace(/-+/g, '-');
 }
 
-const TOC_ENABLED_POSTS = new Set(['critical-phenomena-natural-science']);
+const TOC_ENABLED_POSTS = new Set(['critical-phenomena-natural-science', 'statistical-physics-of-earthquakes']);
 
 function protectMathDelimiters(markdown) {
     const tokens = [];
@@ -308,7 +308,7 @@ function applyPostHero(safeSlug) {
         return;
     }
 
-    if (safeSlug === 'critical-phenomena-natural-science') {
+    if (safeSlug === 'critical-phenomena-natural-science' || safeSlug === 'statistical-physics-of-earthquakes') {
         heroTitle.textContent = '自然科学中的临界现象：';
         heroTitle.classList.add('post-hero-title-custom');
         heroSubtitle.textContent = '混沌、分形、自组织与无序的概念及方法';
@@ -320,25 +320,6 @@ function applyPostHero(safeSlug) {
     heroSubtitle.textContent = '';
 }
 
-
-function applyPostHero(safeSlug) {
-    const heroTitle = document.getElementById('post-hero-title');
-    const heroSubtitle = document.getElementById('post-hero-subtitle');
-    if (!heroTitle || !heroSubtitle) {
-        return;
-    }
-
-    if (safeSlug === 'critical-phenomena-natural-science') {
-        heroTitle.textContent = '自然科学中的临界现象：';
-        heroTitle.classList.add('post-hero-title-custom');
-        heroSubtitle.textContent = '混沌、分形、自组织与无序的概念及方法';
-        heroSubtitle.classList.add('post-hero-subtitle-custom');
-        return;
-    }
-
-    heroTitle.textContent = 'Blog Post';
-    heroSubtitle.textContent = '';
-}
 
 function typesetMathIfNeeded(retryLeft = 12) {
     if (window.MathJax?.typesetPromise) {
