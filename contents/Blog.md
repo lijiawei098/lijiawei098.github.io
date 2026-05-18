@@ -1,9 +1,5 @@
 ## Blog | 博客
 
-欢迎来到博客页面。这里用于集中发布较完整的文章、研究笔记和项目更新。
-
-Welcome to the blog page. This section is designed for long-form articles, research notes, and project updates.
-
 ---
 
 ### 文章列表 | Posts
