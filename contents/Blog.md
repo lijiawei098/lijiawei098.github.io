@@ -1,25 +1,12 @@
-## Blog | 博客
-
----
-
-### 文章列表 | Posts
+#### 连载文章 | Serialized Article
 
 - **[（译作）自然科学中的临界现象：混沌、分形、自组织与无序的概念及方法（持续更新中）](blog_post.html?post=critical-phenomena-natural-science)**
-  本文围绕临界现象相关的核心概念、方法路径与跨学科联系持续整理与更新。
 
-- **[网站更新：博客系统上线（2026-04-17）](blog_post.html?post=2026-04-site-update)**  
-  介绍博客页面结构、文章组织方式与后续扩展建议。
-
-- **[示例：如何添加一篇新的博客文章](blog_post.html?post=how-to-add-a-post)**  
-  手把手说明如何新建 Markdown 并加入索引。
-
+- **[地震统计物理学（持续更新中）](blog_post.html?post=statistical-physics-of-earthquakes)**
+  
+- **[地震预测预报简史（持续更新中）](blog_post.html?post=brief-history)**  
+  
 ---
 
-### 如何新增文章 | How to add a new post
+#### 短篇文章 | Short Article
 
-1. 在 `contents/blog_posts/` 新建一个 Markdown 文件，例如 `my-first-post.md`。
-2. 在本页面的“文章列表”中新增一条链接：
-   `blog_post.html?post=my-first-post`
-3. 刷新页面即可。
-
-> 说明：你可以把这页当成“文章目录页”，点击后会跳转到对应的文章阅读页。
