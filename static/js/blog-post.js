@@ -308,11 +308,17 @@ function applyPostHero(safeSlug) {
         return;
     }
 
-    if (safeSlug === 'critical-phenomena-natural-science' || safeSlug === 'statistical-physics-of-earthquakes') {
+    if (safeSlug === 'critical-phenomena-natural-science') {
         heroTitle.textContent = '自然科学中的临界现象：';
         heroTitle.classList.add('post-hero-title-custom');
         heroSubtitle.textContent = '混沌、分形、自组织与无序的概念及方法';
         heroSubtitle.classList.add('post-hero-subtitle-custom');
+        return;
+    }
+
+    if (safeSlug === 'statistical-physics-of-earthquakes') {
+        heroTitle.textContent = '地震统计物理学';
+        heroTitle.classList.add('post-hero-title-custom');
         return;
     }
 
