@@ -14,7 +14,7 @@
 
 2026
 
-- <strong>Li, J.</strong><sup>¥</sup><sup>#</sup>, Wang, X.<sup>¥</sup>,  Sornette, D. (2026). Unifying the Gutenberg-Richter law with probabilistic catalog completeness. Seismological Research Letters (accepted) or <a href="http://arxiv.org/abs/2506.16849" target="_blank">[Preprint]</a> <a href="https://github.com/lijiawei098/GR-gReLU" target="_blank">[Code]</a> 
+- <strong>Li, J.</strong><sup>¥</sup><sup>#</sup>, Wang, X.<sup>¥</sup>, Sornette, D. (2026). Unifying the Gutenberg–Richter Law with Probabilistic Catalog Completeness. Seismological Research Letters. <a href="https://pubs.geoscienceworld.org/ssa/srl/article/doi/10.1785/0220250289/731658/Unifying-the-Gutenberg-Richter-Law-with" target="_blank">[Link]</a> <a href="/contents/Papers/2026_SRL_GRReLU_MS.pdf" target="_blank">[PDF]</a> <a href="/contents/Papers/2026_SRL_GRReLU_SI.pdf" target="_blank">[SI]</a> <a href="https://github.com/lijiawei098/GR-gReLU" target="_blank">[Code]</a>
 
 - 蒋策, <strong>李佳威</strong><sup>#</sup>. (2026). 有限断层破裂参数的实时估计及应用: 以2008年5月12日汶川 $M_{\mathrm{S}}\ 8.0$ 地震为例. 地球物理学报, 69(4), 1591-1602. <a href="http://www.geophy.cn/article/doi/10.6038/cjg2025T0293" target="_blank">[Link]</a> <a href="/contents/Papers/2026_CJG.pdf" target="_blank">[PDF]</a>
 

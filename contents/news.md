@@ -1,3 +1,7 @@
+- <strong>June 8–12, 2026</strong>, Prof. Jiancang Zhuang was invited to visit <strong>RisksX</strong>.
+
+- <strong>June 8, 2026</strong>, our paper titled <strong>“Unifying the Gutenberg–Richter Law with Probabilistic Catalog Completeness”</strong> (by Jiawei Li, Xinyi Wang, and Didier Sornette) was published online by <strong>Seismological Research Letters</strong>. <a href="https://pubs.geoscienceworld.org/ssa/srl/article/doi/10.1785/0220250289/731658/Unifying-the-Gutenberg-Richter-Law-with" target="_blank">[Link]</a> <a href="/contents/Papers/2026_SRL_GRReLU_MS.pdf" target="_blank">[PDF]</a> <a href="/contents/Papers/2026_SRL_GRReLU_SI.pdf" target="_blank">[SI]</a> <a href="https://github.com/lijiawei098/GR-gReLU" target="_blank">[Code]</a>
+
 - <strong>May 12, 2026</strong>, I visited Prof. Shunping Pei at Yunnan University.
 
 - <strong>May 10, 2026</strong>, invited by Associate Prof. Yongwen Zhang at Kunming University of Science and Technology, Associate Prof. Ying Zhang (USTB) and I delivered two talks titled <strong>“再访古登堡-里克特定律”</strong> and <strong>“AI与地震物理融合：引领地震预测新范式”</strong>, respectively. <a href="/contents/News/KIT_lijw.jpg" target="_blank">[Poster]</a> <a href="/contents/News/KIT_zhangy.jpg" target="_blank">[Poster]</a>
@@ -9,15 +13,3 @@
 - <strong>January 4, 2026</strong>, my conference proceedings titled <strong>“Spatial distribution patterns of static complex slip on fault rupture surfaces of large earthquakes”</strong> (by Jiawei Li<sup>#</sup>) was published in Proceedings of the 11th Annual Meeting of Risk Analysis Council of China Association for Disaster Prevention (RAC 2024) (Qiao, S., Cao, H., Liu, A., Chen, X., Li, T., Han, P. eds), Atlantis Press, Dordrecht, The Netherlands. <a href="https://www.atlantis-press.com/proceedings/rac-24/126021163" target="_blank">[Link]</a> <a href="https://www.atlantis-press.com/proceedings/rac-24" target="_blank">[Book link]</a> <a href="/contents/Papers/2026_Chapter_MS.pdf" target="_blank">[PDF]</a>
 
 - <strong>December 15, 2025</strong>, I was promoted to <strong>Assistant Research Professor (Associate Researcher)</strong>. The evaluation committee consisted of Didier Sornette, Xiaofei Chen, Kejie Chen, Peng Han, and Ruijia Wang.
-
-- <strong>December 3, 2025</strong>, we released the <strong>December issue of the AoyuX Monthly Earthquake Forecasting Report for the China Seismic Experimental Site (CSES)</strong>. <a href="/contents/AoyuX/1_Monthly/AoyuX地震预测报告_2025年12月_中文_高清.pdf" target="_blank">2025年12月</a> | <a href="/contents/AoyuX/1_Monthly/AoyuXReport_December2025_English_HighRes.pdf" target="_blank">December 2025</a> | <a href="https://pan.baidu.com/s/1sCKEZH8q-BP9BGyRlrYaTQ?pwd=h7ie" target="_blank">[Data]</a> </td>
-
-- <strong>December 1, 2025</strong>, our paper titled <strong>“有限断层破裂参数的实时估计及应用——以2008年5月12日汶川 <strong>$M_{\mathrm{S}}\ 8.0$</strong> 地震为例”</strong> (by 蒋策 和 李佳威) was accepted by <strong>地球物理学报</strong>. <a href="https://www.researchgate.net/publication/391920666_youxianduancengpoliecanshudeshishigujijiyingyong--yi2008nian5yue12riwenchuanMS_80dezhenweili" target="_blank">[Preprint]</a>
-
-- <strong>November 15, 2025</strong>, we (Jiawei Li and Didier Sornette) attended the 2025 Final Acceptance Meeting of the NSFC Earthquake Joint Fund (国家自然科学基金地震联合基金), held at the Shaanxi Guesthouse in Xi’an, Shaanxi Province, and successfully completed the final evaluation of the project “Data-driven Earthquake Predictability Assessment: An Extract-Transform-Load Pipeline for Machine Learning Testing on Multi-Type Data” (PI: Didier Sornette; Project Period: 2021–2024).
-
-- <strong>November 7, 2025</strong>, we (Jiawei Li and Didier Sornette) visited the State Key Laboratory of Geohazard Prevention and Geoenvironment Protection (SKLGP) at Chengdu University of Technology, and met with Prof. Xuanmei Fan (Director) and her research team.
-
-- <strong>November 6, 2025</strong>, we (Jiawei Li and Didier Sornette) visited the Institute for Disaster Management and Reconstruction, Sichuan University – The Hong Kong Polytechnic University, and met with Prof. Baofeng Di (Dean) and colleagues.
-
-- <strong>November 3, 2025</strong>, we released the <strong>November issue of the AoyuX Monthly Earthquake Forecasting Report for the China Seismic Experimental Site (CSES)</strong>. <a href="/contents/AoyuX/1_Monthly/AoyuX地震预测报告_2025年11月_中文_高清.pdf" target="_blank">2025年11月</a> | <a href="/contents/AoyuX/1_Monthly/AoyuXReport_November2025_English_HighRes.pdf" target="_blank">November 2025</a> | <a href="https://pan.baidu.com/s/10J0WOcK17sWx3uEht5pMFQ?pwd=e99p" target="_blank">[Data]</a> </td>

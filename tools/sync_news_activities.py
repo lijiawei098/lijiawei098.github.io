@@ -61,6 +61,17 @@ def partition(entries: list[str], cutoff: datetime) -> tuple[list[str], list[str
     return recent, archived
 
 
+def deduplicate_entries(entries: list[str]) -> list[str]:
+    seen: set[str] = set()
+    unique: list[str] = []
+    for entry in entries:
+        if entry in seen:
+            continue
+        seen.add(entry)
+        unique.append(entry)
+    return unique
+
+
 def write_markdown(path: Path, entries: list[str], empty_message: str) -> None:
     if entries:
         content = '\n\n'.join(entries) + '\n'
@@ -70,8 +81,10 @@ def write_markdown(path: Path, entries: list[str], empty_message: str) -> None:
 
 
 def main() -> None:
-    source = NEWS_PATH.read_text(encoding='utf-8')
-    entries = split_entries(source)
+    news_source = NEWS_PATH.read_text(encoding='utf-8')
+    activity_source = ACTIVITIES_PATH.read_text(encoding='utf-8') if ACTIVITIES_PATH.exists() else ''
+    entries = split_entries(news_source)
+    existing_activities = split_entries(activity_source)
 
     now = datetime.now(timezone.utc)
     cutoff_month = now.month - 6
@@ -82,13 +95,15 @@ def main() -> None:
     day = min(now.day, 28)
     cutoff = datetime(cutoff_year, cutoff_month, day, tzinfo=timezone.utc)
 
-    recent, archived = partition(entries, cutoff)
+    recent, newly_archived = partition(entries, cutoff)
+    archived = deduplicate_entries([*newly_archived, *existing_activities])
 
     write_markdown(NEWS_PATH, recent, '- _No recent news in the past six months._')
     write_markdown(ACTIVITIES_PATH, archived, '- _No archived activities yet._')
 
     print(f'Cutoff date (UTC): {cutoff.date().isoformat()}')
     print(f'Recent entries: {len(recent)}')
+    print(f'Newly archived entries: {len(newly_archived)}')
     print(f'Archived entries: {len(archived)}')
 
 
