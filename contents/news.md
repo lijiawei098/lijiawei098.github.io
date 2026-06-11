@@ -1,6 +1,6 @@
 - <strong>June 8–12, 2026</strong>, Prof. Jiancang Zhuang was invited to visit <strong>RisksX</strong>.
 
-- <strong>June 8, 2026</strong>, our paper titled <strong>“Unifying the Gutenberg–Richter Law with Probabilistic Catalog Completeness”</strong> (by Jiawei Li, Xinyi Wang, and Didier Sornette) was published online by <strong>Seismological Research Letters</strong>. <a href="https://pubs.geoscienceworld.org/ssa/srl/article/doi/10.1785/0220250289/731658/Unifying-the-Gutenberg-Richter-Law-with" target="_blank">[Link]</a> <a href="/contents/Papers/2026_SRL_GRReLU_MS.pdf" target="_blank">[PDF]</a> <a href="/contents/Papers/2026_SRL_GRReLU_SI.pdf" target="_blank">[SI]</a> <a href="https://github.com/lijiawei098/GR-gReLU" target="_blank">[Code]</a>
+- <strong>June 8, 2026</strong>, our paper titled <strong>“Unifying the Gutenberg-Richter law with probabilistic catalog completeness”</strong> (by Jiawei Li, Xinyi Wang, and Didier Sornette) was published by <strong>Seismological Research Letters</strong>. <a href="https://pubs.geoscienceworld.org/ssa/srl/article/doi/10.1785/0220250289/731658/Unifying-the-Gutenberg-Richter-Law-with" target="_blank">[Link]</a> <a href="/contents/Papers/2026_SRL_GRReLU_MS.pdf" target="_blank">[PDF]</a> <a href="/contents/Papers/2026_SRL_GRReLU_SI.pdf" target="_blank">[SI]</a> <a href="https://github.com/lijiawei098/GR-gReLU" target="_blank">[Code]</a>
 
 - <strong>May 12, 2026</strong>, I visited Prof. Shunping Pei at Yunnan University.
 
