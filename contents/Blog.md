@@ -10,5 +10,5 @@
 
 #### 短篇文章 | Short Article
 
-- **[一个新的GR模型如何重新理解地震目录](blog_post.html?post=new-gr-model)**
+- **[（2026-06-12）一个新的GR模型如何重新理解地震目录](blog_post.html?post=new-gr-model)**
 
