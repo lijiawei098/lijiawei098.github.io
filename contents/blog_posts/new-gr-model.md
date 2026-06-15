@@ -1,6 +1,6 @@
 # 一个新的GR模型如何重新理解地震目录
 
-原文于2026年6月12日刊载于震鉴-QuakeInsight
+<p style="text-align: center; text-indent: 0;">原文于2026年6月12日刊载于震鉴-QuakeInsight</p>
 
 古登堡-里克特（Gutenberg-Richter, GR）定律是地震统计学中最基本的经验关系之一。它指出，在给定区域和时间窗内，地震数目会随震级增大而近似指数衰减。传统写法通常为
 
