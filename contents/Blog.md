@@ -10,3 +10,5 @@
 
 #### 短篇文章 | Short Article
 
+- **[新 GR 模型：把目录完整性写进古登堡-里克特定律](blog_post.html?post=new-gr-model)**
+
