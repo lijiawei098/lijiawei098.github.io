@@ -1,4 +1,4 @@
-# 一个新的GR模型如何重新理解地震目录
+<p style="text-align: center; text-indent: 0;"># 一个新的GR模型如何重新理解地震目录</p>
 
 <p style="text-align: center; text-indent: 0;">原文于2026年6月12日刊载于震鉴-QuakeInsight</p>
 
