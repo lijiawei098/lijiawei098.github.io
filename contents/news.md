@@ -1,6 +1,6 @@
 - <strong>July 22–23, 2026</strong>, I attended 中国地震学会青年科技工作委员会换届会议暨2026年度学术研讨会, where I gave a talk titled <strong>“古登堡-里克特定律与概率性地震目录完整性的统一建模”</strong>. <a href="https://www.ssoc.org.cn/Detail1.html?id=10&contentId=562" target="_blank">[Link]</a>
 
-- <strong>July 18, 2026</strong>, our paper titled <strong>“Launching AoyuX: A 25-year pseudo-prospective earthquake forecasting experiment at the China Seismic Experimental Site”</strong> (by Jiawei Li, Qingyuan Zhang, and Didier Sornette) was accepted by <strong>Seismological Research Letters</strong>.
+- <strong>July 18, 2026</strong>, our paper titled <strong>“Launching AoyuX: A 25-year pseudo-prospective earthquake forecasting experiment at the China Seismic Experimental Site”</strong> (by Jiawei Li, Qingyuan Zhang, and Didier Sornette) was accepted by <strong>Seismological Research Letters</strong>. <a href="https://doi.org/10.48550/arXiv.2510.14407" target="_blank">[Preprint]</a>
 
 - <strong>June 30, 2026</strong>, I served as a review panel member for Davide Zaccagnino’s Midterm Postdoctoral Presentation.
 
