@@ -4,8 +4,6 @@
 
 #### 审稿中｜Under review
 
-- <strong>Li, J.</strong><sup>¥</sup><sup>#</sup>, Zhang, Q.<sup>¥</sup>, Sornette, D.<sup>¥</sup> (2025). Design and implementation of a 25-Year pseudo-prospective earthquake forecasting experiment in China (AoyuX). Seismological Research Letters (minor revision) or <a href="https://doi.org/10.48550/arXiv.2510.14407" target="_blank">[Preprint]</a>
-
 - <strong>Li, J.</strong><sup>#</sup>, Sornette, D.<sup>#</sup> (2025). Haicheng and Tangshan earthquakes as potential dragon-kings. Science China Earth Sciences (minor revision) or <a href="https://doi.org/10.48550/arXiv.2504.21310" target="_blank">[Preprint]</a> <a href="https://github.com/lijiawei098/SeisDK_v1" target="_blank">[Code]</a> 
 
 ---
@@ -13,6 +11,8 @@
 #### 已接收/已出版｜Accepted/published
 
 2026
+
+- <strong>Li, J.</strong><sup>¥</sup><sup>#</sup>, Zhang, Q.<sup>¥</sup>, Sornette, D.<sup>¥</sup> (2025). Design and implementation of a 25-Year pseudo-prospective earthquake forecasting experiment in China (AoyuX). Seismological Research Letters (minor revision) or <a href="https://doi.org/10.48550/arXiv.2510.14407" target="_blank">[Preprint]</a>
 
 - <strong>Li, J.</strong><sup>¥</sup><sup>#</sup>, Wang, X.<sup>¥</sup>, Sornette, D. (2026). Unifying the Gutenberg–Richter Law with Probabilistic Catalog Completeness. Seismological Research Letters. <a href="https://pubs.geoscienceworld.org/ssa/srl/article/doi/10.1785/0220250289/731658/Unifying-the-Gutenberg-Richter-Law-with" target="_blank">[Link]</a> <a href="/contents/Papers/2026_SRL_GRReLU_MS.pdf" target="_blank">[PDF]</a> <a href="/contents/Papers/2026_SRL_GRReLU_SI.pdf" target="_blank">[SI]</a> <a href="https://github.com/lijiawei098/GR-gReLU" target="_blank">[Code]</a>
 
