@@ -1,3 +1,7 @@
+- <strong>July 27–31, 2026</strong>, I attended the <strong>International Conference on Earthquake Engineering Commemorating the 50th Anniversary of the Great Tangshan Earthquake</strong> in Beijing, China, where I gave a talk titled <strong>“Modeling incomplete earthquake catalogs with an augmented Gutenberg-Richter Law”</strong>. <a href="https://icee2026.cn/" target="_blank">[Link]</a>
+
+- <strong>July 26–28, 2026</strong>, I attended the <strong>International Symposium on the Rapid Interdisciplinary Investigation of Significant Earthquakes</strong> in Beijing, China, where I gave a talk titled <strong>“Haicheng and Tangshan Earthquakes as Potential Dragon-Kings”</strong>. <a href="https://www.ief.ac.cn/reports/info/2026/96516.html" target="_blank">[Link]</a>
+
 - <strong>July 22–23, 2026</strong>, I attended 中国地震学会青年科技工作委员会换届会议暨2026年度学术研讨会, where I gave a talk titled <strong>“古登堡-里克特定律与概率性地震目录完整性的统一建模”</strong>. <a href="https://www.ssoc.org.cn/Detail1.html?id=10&contentId=562" target="_blank">[Link]</a>
 
 - <strong>July 18, 2026</strong>, our paper titled <strong>“Launching AoyuX: A 25-year pseudo-prospective earthquake forecasting experiment at the China Seismic Experimental Site”</strong> (by Jiawei Li, Qingyuan Zhang, and Didier Sornette) was accepted by <strong>Seismological Research Letters</strong>. <a href="https://doi.org/10.48550/arXiv.2510.14407" target="_blank">[Preprint]</a>
