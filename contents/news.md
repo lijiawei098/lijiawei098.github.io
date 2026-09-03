@@ -1,4 +1,4 @@
-- <strong>August 2026</strong>, my project titled <strong>“基于统计地震学模型反演偏差校正的地震临界性分析”</strong> was awarded funding by the <strong>National Natural Science Foundation of China Young Scientists Fund (Category C)</strong> (Grant No. 42604118; funding: RMB 300,000; project period: January 2027–December 2029).
+- <strong>August 27, 2026</strong>, my project titled <strong>“基于统计地震学模型反演偏差校正的地震临界性分析”</strong> was awarded funding by the <strong>National Natural Science Foundation of China Young Scientists Fund (Category C)</strong> (Grant No. 42604118; funding: RMB 300,000; project period: January 2027–December 2029).
 
 - <strong>August 18–20, 2026</strong>, I attended 中国地震学会地震预警与烈度速报技术专业委员会成立大会暨2026年度学术研讨会, where I gave a talk titled <strong>“基于盲区大小评估 新建地震预警台网的效能”</strong> and was elected as an inaugural member of the 中国地震学会地震预警与烈度速报技术专业委员会. <a href="https://www.ssoc.org.cn/Detail1.html?id=10&amp;contentId=593" target="_blank">[Link]</a>
 
