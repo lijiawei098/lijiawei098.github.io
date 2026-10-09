@@ -4,7 +4,7 @@
 
 #### 审稿中｜Under review
 
-- <strong>Li, J.</strong><sup>#</sup>, Sornette, D.<sup>#</sup> (2025). Haicheng and Tangshan earthquakes as potential dragon-kings. Science China Earth Sciences (minor revision) or <a href="https://doi.org/10.48550/arXiv.2504.21310" target="_blank">[Preprint]</a> <a href="https://github.com/lijiawei098/SeisDK_v1" target="_blank">[Code]</a> 
+- <strong>Li, J.</strong><sup>#</sup>, Sornette, D.<sup>#</sup> (2026). Haicheng and Tangshan earthquakes as potential dragon-kings. Science China Earth Sciences (minor revision) or <a href="https://doi.org/10.48550/arXiv.2504.21310" target="_blank">[Preprint]</a> <a href="https://github.com/lijiawei098/SeisDK_v1" target="_blank">[Code]</a>
 
 ---
 
