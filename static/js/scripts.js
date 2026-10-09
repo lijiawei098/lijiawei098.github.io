@@ -13,6 +13,10 @@ async function fetchTextOrThrow(path) {
 function applyYamlConfig(yml) {
     Object.entries(yml).forEach(([key, value]) => {
         const element = document.getElementById(key);
+        // Keep each pre-rendered page's descriptive title instead of the shared default.
+        if (key === 'title' && element?.textContent.trim()) {
+            return;
+        }
         if (!element) {
             console.warn(`Config key skipped (missing element id): ${key}`);
             return;
@@ -219,6 +223,10 @@ window.addEventListener('DOMContentLoaded', async () => {
         console.error('Failed to load YAML config:', error);
     }
 
+    // Static pages such as About Us do not load the Markdown parser.
+    if (typeof marked === 'undefined') {
+        return;
+    }
     marked.use({ mangle: false, headerIds: false });
 
     await renderNewsAndActivitiesWithAutoSplit();
