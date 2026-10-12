@@ -65,8 +65,8 @@
 - 学术任职｜Academic service<br>
   - 2026-2030, 中国地震学会地震预警与烈度速报技术专业委员会委员. <a href="https://www.ssoc.org.cn/Detail1.html?id=10&amp;contentId=593" target="_blank">[Link]</a>
 - 邀请报告｜Invited talks<br>
-  - 2026, 中国物理学会2026秋季学术会议.
-  - 2023, 20th Annual Meeting of the Asia Oceania Geosciences Society (AOGS 2023).
+  - 2026, 中国物理学会2026秋季学术会议. <a href="/contents/News/2026_CP.pdf" target="_blank">[PDF]</a>
+  - 2023, 20th Annual Meeting of the Asia Oceania Geosciences Society (AOGS 2023). <a href="/contents/News/2023_AOGS.pdf" target="_blank">[PDF]</a>
 - 专利和标准｜Patents and standards<br>
   - 2026, 参与编制团体标准《安全应急管理代理式人工智能建设规范》（T/SZDEIA 2—2026）, 深圳市数字经济产业促进会, 2026年9月14日发布, 2026年9月30日实施. <a href="https://mp.weixin.qq.com/s/GBsAWeTr2xuAkV3c7eacPA" target="_blank">[Link]</a> <a href="/contents/Papers/2026_T_SZDEIA_2.pdf" target="_blank">[PDF]</a>
 - 客座编辑｜Guest editor<br>
