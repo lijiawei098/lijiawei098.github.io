@@ -1,4 +1,4 @@
-- <strong>October 23–25, 2026</strong>, I attended the <strong>“中国物理学会2026秋季学术会议”</strong> in Changsha, Hunan, China, where I delivered an invited talk titled <strong>“大地震是否特殊？地震统计物理中的‘龙王’现象”</strong> in <strong>“N 分会场：统计物理与复杂系统”</strong>, under <strong>“专题六，地球复杂性科学”</strong>. <a href="https://my.31huiyi.com/site/?pageId=019bfe42-1bba-723f-8500-160f00c918a1" target="_blank">[Link]</a>
+- <strong>October 23–25, 2026</strong>, I attended the <strong>“中国物理学会2026秋季学术会议”</strong> in Changsha, Hunan, China, where I delivered an invited talk titled <strong>“大地震是否特殊？地震统计物理中的‘龙王’现象”</strong> in <strong>“N分会场:统计物理与复杂系统”</strong>, under <strong>“专题六:地球复杂性科学”</strong>. <a href="https://my.31huiyi.com/site/?pageId=019bfe42-1bba-723f-8500-160f00c918a1" target="_blank">[Link]</a>
 
 - <strong>September 30, 2026</strong>, the <strong>“团体标准《安全应急管理代理式人工智能建设规范》（T/SZDEIA 2—2026）”</strong>, which I contributed to drafting, came into effect. The standard was officially issued by <strong>“深圳市数字经济产业促进会”</strong> on September 14, 2026. <a href="https://mp.weixin.qq.com/s/GBsAWeTr2xuAkV3c7eacPA" target="_blank">[Link]</a> <a href="/contents/Papers/2026_T_SZDEIA_2.pdf" target="_blank">[PDF]</a>
 
@@ -8,7 +8,7 @@
 
 - <strong>August 27, 2026</strong>, my project titled <strong>“基于统计地震学模型反演偏差校正的地震临界性分析”</strong> was awarded funding by the <strong>National Natural Science Foundation of China Young Scientists Fund (Category C)</strong> (Grant No. 42604118; funding: RMB 300,000; project period: January 2027–December 2029).
 
-- <strong>August 18–20, 2026</strong>, I attended 中国地震学会地震预警与烈度速报技术专业委员会成立大会暨2026年度学术研讨会, where I gave a talk titled <strong>“基于盲区大小评估 新建地震预警台网的效能”</strong> and was elected as an inaugural member of the 中国地震学会地震预警与烈度速报技术专业委员会. <a href="https://www.ssoc.org.cn/Detail1.html?id=10&amp;contentId=593" target="_blank">[Link]</a>
+- <strong>August 18–20, 2026</strong>, I attended 中国地震学会地震预警与烈度速报技术专业委员会成立大会暨2026年度学术研讨会, where I gave a talk titled <strong>“基于盲区大小评估新建地震预警台网的效能”</strong> and was elected as an inaugural member of the 中国地震学会地震预警与烈度速报技术专业委员会. <a href="https://www.ssoc.org.cn/Detail1.html?id=10&amp;contentId=593" target="_blank">[Link]</a>
 
 - <strong>July 27–31, 2026</strong>, I attended the <strong>International Conference on Earthquake Engineering Commemorating the 50th Anniversary of the Great Tangshan Earthquake</strong> in Beijing, China, where I gave a talk titled <strong>“Modeling incomplete earthquake catalogs with an augmented Gutenberg-Richter Law”</strong>. <a href="https://icee2026.cn/" target="_blank">[Link]</a>
 
